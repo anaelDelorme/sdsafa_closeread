@@ -16,6 +16,7 @@ website:
         menu:
           - viz/bastien.qmd
           - viz/benoit.qmd
+          - viz/claire.qmd
           - viz/dominique.qmd
           - viz/eric.qmd
           - viz/laurence.qmd
@@ -23,7 +24,8 @@ website:
           - viz/marie_anne.qmd
           - viz/marilene.qmd
           - viz/maud.qmd
-          - vis/noemie.qmd
+          - viz/nathalie.qmd
+          - viz/noemie.qmd
           - viz/pauline.qmd
           - viz/sylvie.qmd
           - viz/vincent.qmd
