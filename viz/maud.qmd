@@ -1,0 +1,84 @@
+---
+title: "Le don du sang : un acte de générosité"
+author: "Maud"
+format: closeread-html
+theme: sandstone
+---
+
+# L'association des bénévoles du don du sang de Castanet Tolosan fondée il y a bientôt 2 ans a imaginé une dataviz pour promouvoir le don du sang et surtout recruter de nouveaux donneurs.
+
+:::::::::::::: cr-section
+# Assurer l'autosuffisance nationale en produits sanguins: une mission de service public
+
+::: {#cr-EFS}
+![](./img/logo_efs.png)
+:::
+
+**L'Etablissement Français du Sang (EFS)** Un établissement public de l'état qui alimente plus de 1500 établissements de santé @cr-EFS
+
+# Les quatres principes éthiques du don du sang
+
+::: {#cr-Anonymat}
+![](./img/anonymat.png)
+:::
+
+**L'anonymat** : seul l'EFS connait l'identité du donneur @cr-Anonymat
+
+::: {#cr-Benevolat}
+![](./img/benevolat.png)
+:::
+
+**Le bénévolat** : aucune rémunération ne peut être allouée au donneur @cr-Benevolat
+
+::: {#cr-Volontariat}
+![](./img/volontariat.png)
+:::
+
+**Le volontariat** : le don est un acte librement accompli @cr-Volontariat
+
+::: {#cr-Nonprofit}
+![](./img/non_profit.png)
+:::
+
+**Le non-profit** : le sang et les produits sanguins ne peuvent pas être une source de profit financier @cr-Nonprofit
+
+# Pourquoi transfuser les malades ?
+
+::: {#cr-Sang}
+![](./img/sang.png)
+:::
+
+L'organisme contient 5 litres de sang. La transfusion permet de remplacer les éléments manquants du sang.@cr-Sang
+
+::: {#cr-Compositionsang}
+Les globules rouges permettent le transport de l'oxygène, les globules blancs permettent de lutter contre les infections, les plaquettes jouent un rôle dans la coagulation, les cellules baignent dans le plasma qui contient de nombreuses protéines.
+:::
+
+Les globules rouges@cr-Compositionsang
+
+# Les besoins en sang dans la région Occitanie
+
+::: {#cr-Sangtotal}
+![](./img/sang_total.png)
+:::
+
+Sang total : 1000 dons/jour @cr-Sangtotal
+
+::: {#cr-Plaquette}
+![](./img/plaquette.png)
+:::
+
+Plaquette : 37 dons/jour @cr-Plaquette
+
+::: {#cr-Plasma}
+![](./img/plasma.png)
+:::
+
+Plasma : 125 dons/jour @cr-Plasma
+
+::: {#cr-Donneur}
+![](./img/donneur.png)
+:::
+
+**3 876 924** personnes en âge de donner en Occitanie **177 002** donneurs en 2023 en Occitanie @cr-Donneur
+::::::::::::::

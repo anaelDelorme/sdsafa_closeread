@@ -1,0 +1,46 @@
+---
+title: "Lebrun"
+author: "Fan"
+format: closeread-html
+theme: cyborg
+backgroundcolor: darkslateblue
+---
+
+Les **Lebrun** sont une fratrie de pongistes surnommés les Lebruns glasses dans tous les pays asiatiques où leur notoriété dépasse celle des meilleurs chinois. Le fait qu'ils portent des lunettes les rend populaires autant que leurs performances sportives exceptionnelles.
+
+::::{.cr-section}
+
+:::{#cr-oncle}
+![](./img/Legout - Lebrun.jpg)
+:::                     
+# Une famille de pongistes
+Le père a joué en Pro et a été numéro 7 Français, l'oncle Christophe Legout a fait partie de l'équipe de France [@cr-oncle]{scale-by="2"}
+
+:::{#cr-famille} 
+![](./img/Famille Lebrun.jpg)
+:::
+# 2 frères bien entourés
+Les parents confient rapidement la progression des 2 génis à des entraîneurs de haut niveau. Les parents et les soeurs gèrent les affaires courantes.
+[@cr-famille]{scale-by="2"}  
+
+
+:::{#cr-Felix} 
+![](./img/Félix jeune.jpg)
+:::
+# Félix jeune **sans lunettes**
+Attaquant droitier jouant en prise porte-plume, il possède un style fondé sur la vitesse et les variations de service.
+<br>Frère cadet d'Alexis Lebrun (14e mondial en octobre 2024), avec qui il forme une des meilleures paires mondiales en double messieurs (classés numéro un mondial en novembre 2024 après avoir obtenu le titre de champions d'Europe et remporté le WTT Finals), Félix est décrit comme un « phénomène du tennis de table français » de par sa précocité exceptionnelle dans l'histoire de ce sport. Fait unique pour un pongiste non asiatique, il a atteint très tôt le haut niveau en se classant au 78e rang mondial dès ses 15 ans, puis en décrochant son premier titre majeur à seulement 16 ans, en remportant les Jeux européens de 2023 ; à 17 ans, il est classé 1er joueur français et européen et 1er mondial des moins de 19 ans. Le 19 mars 2024, il devient le troisième plus jeune joueur de l'histoire à se hisser à la 5e place du classement mondial senior. [@cr-Felix]{scale-by="2"} 
+
+:::{#cr-Felix2}
+<br> Il a grandi depuis
+<br> Mais a conservé sa prise porte-plume
+<br> Il a mis des lunettes
+<br> Et a bien progressé
+:::
+
+:::{.callout-warning title="Attention attention"} 
+# Félix a grandi
+:::
+[@cr-Felix2]{highlight="2-3"}
+
+::::

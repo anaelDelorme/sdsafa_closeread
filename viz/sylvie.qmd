@@ -1,0 +1,72 @@
+---
+title: "Les vacances de Sylvie"
+Author: Sylvie
+format: closeread-html
+---
+
+# Les vacances de Sylvie dans les Alpes
+
+Sylvie aime les Alpes et va vous le montrer !
+
+::::{.cr-section}
+
+
+
+:::{#cr-image1}     
+![](./img/P1490968.JPG)
+:::  
+
+la belle marmotte Nous sommes partis du Pré de Madame Carle à l'Aile Froide à 1874m d'altitude pour monter au refuge du glacier Blanc @cr-image1  
+
+:::{#cr-image2}      
+![](./img/P1500445.JPG)
+:::
+
+Le glacier Blanc est un glacier alpin, situé dans le département des Hautes-Alpes. C’est le plus grand glacier du massif des Écrins avec ses cinq kilomètres de longueur, et ses 7 km2 de superficie. @cr-image2
+
+:::{#cr-image3}
+![](./img/P1500466.JPG)
+:::
+
+Direction vers le glacier noir. @cr-image3
+
+:::{#cr-image4}
+![](./img/P1500473.JPG)
+:::
+
+les beaux paysages de la montagne @cr-image4
+
+:::{#cr-image5}
+![](./img/P1500486.JPG)
+:::
+
+Le glacier Blanc se trouve dans le parc national des Écrins, au nord de la commune de Pelvoux. Il débute vers
+4 000 mètres d'altitude, sous le sommet de la barre des Écrins (4 102 m), pour finir sa course à 2 300 mètres d'altitude près du refuge du Glacier Blanc.@cr-image5
+
+:::{#cr-image7}
+![](./img/P1500505-min.JPG)
+:::
+
+Arrivé au refuge  du Pelvoux (2542 m), l'heure du pique nique @cr-image7
+
+
+:::{#cr-image8}
+![](./img/P1500506.JPG)
+:::
+
+Samedi 14 septembre 2024, 18479 pas, 13.77km, 1155 calories @cr-image8
+
+:::{#cr-image9}
+![](./img/P1500532.JPG)
+:::
+
+Le beau lac @cr-image9
+
+
+::::          
+
+
+
+
+
+

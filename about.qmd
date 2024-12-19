@@ -1,0 +1,31 @@
+---
+title: "A propos"
+format: html
+theme: superhero
+---
+
+Ce site est le fruit d’un atelier collaboratif organisé par la SDSAFA du service de la statistique et de la prospective (SSP), au sein du ministère en charge de l’agriculture. Cet atelier avait pour objectif d’explorer les possibilités offertes par Quarto et CloseRead pour la création de datavisualisations.
+
+# Une démarche personnelle et collective
+
+Chaque participant a choisi un sujet qui lui tenait à cœur, puis l’a exploré à travers des visualisations de données. Ces travaux reflètent à la fois les intérêts personnels de chacun et notre volonté commune de rendre les données plus compréhensibles et accessibles.
+
+![](salle1.jpg)
+
+L’atelier a eu lieu dans une ambiance chaleureuse et dynamique. Nous avons travaillé ensemble dans une salle dédiée, en partageant nos idées, nos compétences et nos bonnes pratiques. Un grand merci à François Semecurbe, qui a contribué à nourrir notre esprit créatif (et nos estomacs!) avec des victuailles bienvenues.
+
+![](salle2.jpg)
+
+
+# Un site d'autoformation
+
+Un site d'autoformation a permis que chaque participant avance à son rythme. Le site est [disponible ici](https://anaeldelorme.github.io/closeRead_saint_jacut/formation).
+
+# Découvrez nos projets
+
+Ce site présente les résultats de ces explorations. Vous y trouverez des visualisations variées, témoins de la diversité des sujets abordés et de l’enthousiasme de l’équipe pour les données et leur présentation.
+
+![](salle3.jpg)
+
+
+

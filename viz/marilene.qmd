@@ -1,0 +1,25 @@
+---
+title: "SPITZBERG TERRE DES OURS BLANCS"
+author: Moi
+format: closeread-html
+---
+
+::::{.cr-section}
+
+Découverte du Monde. Juillet 2019, ça y est, je vol vers la Norvège pour prendre l'OCEAN NOVA navire polaire et voguer sur les eaux pour me rendre dans le Spitzberg territoire de l'OURS BLANC, l'OURS POLAIRE. Une fois arrivée, c'est EPOUSTOUFLANT et GRANDIOSE. Des terres de glaces sur des étendues infinies, une eau cristalline et d'une pureté inouie et surtout le plus étonnant un calme et une impression d'une liberté sans fin. Pourtant il y a de la vie : des oiseaux habillés de noir et blanc magnifiques, des renards polaires qui s'habillent eux aussi du manteau d'hiver, des phoques et ENFIN l'OURS BLANC. Cet ours blanc silencieux, puissant, massif et pourtant très alerte particulièrement dans l'eau. ENFIN nous nous sommes rencontrés, maintenant l'aventure peut commencer. @cr-ours
+
+@cr-spitz Nous sommes 3 personnes dans la cabine. Juillet est la pèriode où le jour ne se couche pas. La journée n'est que jour et lumière. 
+Lors d'une nuit "artificielle" rideaux fermés, je suis subitement réveillée. Le temps de comprendre, je réalise que la mer n'est pas si calme et que nous sommes dans une "petite tempête". Ca secoue et je me sens vraiment pas bien. Impossible de se ré-endormir. 
+
+
+:::{#cr-ours}
+![](img/ours blanc.PNG) 
+:::
+
+:::{#cr-spitz}
+![](./img/spitzberg.PNG)
+:::
+::::
+
+
+

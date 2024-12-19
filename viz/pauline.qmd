@@ -1,0 +1,63 @@
+---
+title: "Aurecler"
+author : Pauline
+format: closeread-html
+theme: solar
+backgroundcolor: "#D8E07B"
+fontsize: 1.4em
+cr-style:
+      narrative-background-color-sidebar: darkslateblue
+      narrative-text-color-sidebar: white
+      section-background-color: darkslateblue
+      narrative-background-color-overlay: blue
+      narrative-text-color-overlay: black
+---
+
+**AURECLER**, l'Association des élèves et des anciens élèves des écoles d'Aureville et de Clermont-le-Fort, fonctionne grâce à des parents bénévoles. Vous retrouverez ici un résumé des activités menées par l'association lors de l'année 2024
+
+# Aurecler
+
+::::{.cr-section}
+
+Pendant l'année scolaire 2023/2024, 100 enfants ont participé aux activités périscolaires sur la commune d'Aureville.  Ces activités s'adressent aux enfants scolarisés dans les écoles d'Aureville et Clermont-le Fort, après le temps de classe, et également aux collégiens des deux communes (activité couture ados organisée le samedi matin). @cr-image1
+
+En 2023-2024, 7 activités ont été proposées : sophrologie, éveil musical, multisports, boxe, couture, cocktail (roller/cirque/nature), couture ados. @cr-image1
+
+:::{#cr-image1}
+ ![](./img/Image1.jpg)
+:::
+
+
+AURECLER participe aussi à la mise en place d’événements tout au long de l’année.  La kermesse des écoles, le samedi 29 juin 2024, a été l’occasion de démonstrations de nos activités éveil musical et sophrologie-yoga. [@cr-image3]{scale-by="1.5" pan-to="25%,-50%"}
+
+
+:::{#cr-image3} 
+ ![](./img/Image3.jpg)
+:::
+
+AURECLER a également organisé une sortie canoë le dimanche 30 juin 2024 avec l’association Granhota, pour les enfants scolarisés à Clermont-le-Fort. Par ailleurs, l’association a apporté un soutien financier au voyage scolaire organisé par l’école d’Aureville dans l’Hérault au mois de mars 2024. [@cr-image5]{scale-by="1.5"}
+
+
+ 
+
+:::{#cr-image5}
+
+ ![](./img/Image5.jpg)
+:::
+La rentrée 2024 a été marquée par un fort renouvellement du bureau suite au départ de plusieurs bénévoles dont les enfants sont désormais scolarisés au collège. Une assemblée générale a été organisée le samedi 5 octobre et a permis d’élire le nouveau bureau. L’association compte désormais 13 membres actifs. Nous vous invitons à nous rejoindre pour continuer à faire vivre l’association et participer à l’organisation des différentes manifestations et activités de l’année.[@cr-image7]{scale-by="2.5"}
+
+
+:::{#cr-image7}
+
+ ![](./img/Image7.jpg)
+:::
+
+::::
+ 
+
+
+
+
+
+
+

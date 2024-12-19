@@ -1,0 +1,60 @@
+---
+title: "Viz Guyane"
+author: "vincent"
+format: closeread-html
+backgroundcolor: darkslateblue
+fontsize: 1.4em
+---
+
+# L'abattis itinérant, 
+
+## une agriculture vivrière traditionnelle en Amazonie
+
+Un rapide aperçu de ce qui a longtemps été le seul modèle de sédentarisation des peuples amérindiens afin de produire leur nourriture. Cette agriculture subsiste jusqu'à nos jours. Voici quelques img prises lors de mon excursion pour préparer le recensement agricole dans ces secteurs si particuliers.
+
+::::{.cr-section}
+
+Prenons l'avion pour la Guyane @cr-monImage1
+
+:::{#cr-monImage1}
+![](./img/Image 01.JPG)
+:::
+
+puis une pirogue @cr-monImage2
+
+:::{#cr-monImage2}
+![](./img/Image 02b.jpg)
+:::
+
+Pour aller un peu plus loin @cr-monImage3
+
+Et nous voici entre Grand Santi et Maripa Soula, sur le haut Maroni [@cr-monImage3]{scale-by="1.5" pan-to="25%,-37%"}
+
+:::{#cr-monImage3}
+![](./img/Image 02.JPG)
+:::
+::::
+
+# L'abattis, une valse à 3 temps...
+
+::::{.cr-section layout="overlay-left"}
+<font color="#9900FF">La création commence par la coupe des arbres</font> @cr-creation1
+
+et 3 ou 4 semaines de séchage @cr-creation1
+
+:::{#cr-creation1}
+![](./img/Image 03.jpg)
+:::
+
+Puis on brûle ce qui veut bien brûler @cr-creation2
+
+:::{#cr-creation2}
+![](./img/Image 04.jpg)
+:::
+
+Les troncs eux, restent au sol, à peine carbonisés @cr-creation3
+
+:::{#cr-creation3}
+![](./img/Image 05.jpg)
+:::
+::::
