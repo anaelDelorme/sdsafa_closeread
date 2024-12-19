@@ -1,0 +1,30 @@
+project:
+  type: website
+
+execute:
+  freeze: auto
+
+website:
+  title: "Dataviz de la SDSAFA"
+  favicon: logo.ico
+  navbar:
+    logo: logo.png
+    left:
+      - href: index.qmd
+        text: Accueil
+      - text: "Les dataviz"
+        menu:
+          - viz/bastien.qmd
+          - viz/benoit.qmd
+          - viz/dominique.qmd
+          - viz/eric.qmd
+          - viz/laurence.qmd
+          - viz/lucie.qmd
+          - viz/marie_anne.qmd
+          - viz/marilene.qmd
+          - viz/maud.qmd
+          - viz/pauline.qmd
+          - viz/sylvie.qmd
+          - viz/vincent.qmd
+      - href: about.qmd
+        text: A propos

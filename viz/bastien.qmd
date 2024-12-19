@@ -1,0 +1,182 @@
+---
+title: Road Trip 2023 
+subtitle: "Retour sur un voyage mémorable"
+lightbox: true
+format:
+  closeread-html:
+    code-tools: true
+    cr-section:
+      layout: overlay-left
+      remove-header-space: true
+    cr-style:
+      narrative-background-color-overlay: deepskyblue
+      narrative-text-color-overlay: white
+      section-background-color: lightyellow
+---
+
+```{=html}
+<style>
+  .cr-section.overlay-left {
+    background-color: white;
+  }
+
+  .cr-section.overlay-left .narrative-col .narrative {
+    font-size: 1.1em;
+    background-color: #3a79aa;
+    color: #f1f1f1;
+    padding: 0.6em 0.8em;
+    border-radius: 1;
+    backdrop-filter: blur(10px);
+  }
+
+  .cr-section.overlay-left .narrative-col .narrative a {
+    background-color: #3a79aa;
+    color: #f1f1f1;
+  }
+
+  img.full-width {
+  width: 100%;
+  height: auto;
+}
+</style>
+```
+
+Cette page va retracer en détail et avec des illustrations le voyage que j'ai réalisé à l'été 2023. Vous êtes prêts ? C'est parti ! 
+
+## 26 juin 2023 : le grand départ
+
+::::{.cr-section}
+
+:::{.progress-block}
+
+On arrive directement sur une terrasse. Mais où est-on me demanderez-vous ? Nous venons de faire un voyage long de 25 h ! Dans le détail, après un réveil à 4h30, nous venons d'enchaîner 2h30 de voiture jusqu'à Lyon, puis 2h30 de TGV vers Paris CDG. Les 3h d'attente avant le décollage n'aurons pas été de trop pour me repérer, puis nous voilà embarqué pour Calgary et 9h de vol. Après 3h d'escale, nous embarquons à nouveau pour 1h30 de vol, destination l'Île de Vancouver et Victoria. Vous l'aurez compris, nous voilà à l'extrême Ouest du Canada. Une petite heure de voiture viens couronner ce trajet interminable, et nous arrivons enfin à la ferme de Tricia, pour qui nous allons travailler durant les 2 prochains mois. [@cr-terrasse_ferme]{pan-to="50%,0%"}
+
+:::
+
+:::{#cr-terrasse_ferme}
+![](img/20230628_092803.jpg){width=30%}
+:::
+
+::::
+
+## Mais où est-on vraiment ?   
+
+
+::::{.cr-section}
+
+
+
+**Précision** : Le petit point rouge, voilà où l'on est. Bon, c'est pas très précis. [@cr-victoria_map]{pan-to="30%,-5%" scale-by="1.0"} 
+
+Nous sommes au Canada, sur l'île de Vancouver, le long de la côte Pacifique du Canada ! [@cr-victoria_map]{pan-to="120%,65%" scale-by="4.0"}
+
+
+
+:::{#cr-victoria_map}
+```{r, warning=FALSE, echo=FALSE}
+library(ggplot2)
+library(maps)
+
+world_map <- map_data("world")
+
+city_coords <- data.frame(lon = -123.3656, lat = 48.4284)
+
+ggplot() +
+  geom_polygon(data = world_map, aes(x = long, y = lat, group = group),
+               fill = "lightblue", color = "white") +
+  geom_point(data = city_coords, aes(x = lon, y = lat),
+             color = "red", size = 3) +
+  theme_minimal() +
+  labs(title = " ",
+       x = " ",
+       y = " ") +
+  coord_fixed(1.2)
+```
+:::
+
+::::
+
+## Et pourquoi un tel voyage ? 
+
+Dans le cadre de mon diplôme d'ingénieur, un stage de 2 mois à l'étranger devait être réalisé. J'ai donc décidé de faire du woofing, i.e. travailler bénévolement quelques heures chez l'habitant en échange du gîte et du couvert, afin de valider ma mobilité. 
+
+## Visitons la proriété
+
+:::{#cr-grille_images}
+
+```{=html}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: center;">
+
+  <div>
+    <img src="img/20230713_193206.jpg" alt="Photo 1" style="width: 70%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;">Le chemin principal de la propriété</p>
+  </div>
+  <div>
+    <img src="img/20230703_111009.jpg" alt="Photo 2" style="width: 70%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;">La dépendance où je dormais</p>
+  </div>
+  <div>
+    <img src="img/20230712_103606.jpg" alt="Photo 3" style="width: 70%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;">La maison princiaple et ses champs de lavande</p>
+  </div>
+  <div>
+    <img src="img/20230728_185626.jpg" alt="Photo 4" style="width: 70%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;">L'entrée de la propriété</p>
+  </div>
+
+</div>
+```
+
+:::
+
+## Et qu'est-ce j'ai fait durant ces deux mois ? 
+
+Pleins de choses ! Des travaux agricoles en grande partie, comme la taille des vignes, la tonte de la propriété, mais aussi des travaux d'entretiens avec du rangement et du nettoyage. J'ai aussi porté quelques tonnes de cartons de vin afin de libérer la place de stockage pour réaliser des travaux. 
+
+Mais le travail le plus important a concerné la lavande. Récolte, mise au séchage, extraction des pétales, le boulot n'a pas manqué ! J'ai partagé toutes ces tâches durant 2 mois avec Antoine, un élève ingénieur de Toulouse aussi en stage dans cette ferme (coïncidence ? Un an après j'ai débarqué dans sa ville).
+
+## Processus de traitement de la lavande
+
+Je vais expliquer avec quelques images le processus mis en place pour récolter, faire sécher et récupérer les pétales de lavande. 
+
+::::{.cr-section}
+
+Lorsque la lavande arrive à maturité, il est temps de la récolter. Le laps de temps est cours avant qu'elle ne fanne et perde ses propriétés. [@cr-lavande_1]{pan-to="50%,0%"}
+
+Dans cette ferme, la récolte se faisait à la main. A l'aide d'une faucille, il fallait faire des bouquets et les couper le plus bas possible afin de garder de la tige. [@cr-lavande_2]{pan-to="50%,0%"}
+
+La lavande ainsi coupée était ensuite disposée dans des bacs, puis montée dans une dépendance. A partir des bacs de lavande, nous devions ensuite en faire des bouquets et leur mettre un élastique pour les maintenir. A l'aide d'un trombone, nous les avons ensuite accrochés la tête vers le bas sur des fils suspendus pour les laisser sécher, durant une semaine environ. [@cr-lavande_3]{pan-to="50%,0%"}
+
+Lorsque les bouquets étaient secs, il était temps de récupérer les pétales. [@cr-lavande_4]{pan-to="50%,0%"}
+
+En leur mettant la tête dans cette petite machine, un rouleau à poils durs fait tomber les pétales sèches dans un sac de récupération. [@cr-lavande_5]{pan-to="50%,0%"}
+
+Ce travail est long et répétitif. Voici un aperçu de la quantité obtenue en 1 mois de travail. [@cr-lavande_6]{pan-to="50%,0%"}
+
+Les pétales de lavande, destinées à être distilées, ont une grande valeur. Ces quelques dizaines de kilos ont été vendues plusieurs miliers d'euros. Mais une grande quantité de travail a été nécessaire. 
+
+:::{#cr-lavande_1}
+![](img/Snapchat-899455857.jpg){width=22%}
+:::
+
+:::{#cr-lavande_2}
+![](img/Snapchat-503389266.jpg){width=22%}
+:::
+
+:::{#cr-lavande_3}
+![](img/Snapchat-516525400.jpg){width=22%}
+:::
+
+:::{#cr-lavande_4}
+![](img/Snapchat-718324342.jpg){width=22%}
+:::
+
+:::{#cr-lavande_5}
+![](img/Snapchat-459962270.jpg){width=22%}
+:::
+
+:::{#cr-lavande_6}
+![](img/Snapchat-108980200.jpg){width=22%}
+:::
+
+::::

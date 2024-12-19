@@ -1,0 +1,44 @@
+---
+title: "Ma dataviz"
+author: "Marie-Anne"
+format: closeread-html
+closeread-html:
+    theme: cyborg
+    
+    
+---
+
+# Ovins : en 2022, une production en repli et des prix record 
+
+ En 2022, pour la troisième année consécutive, la production ovine française recule sur un an dans un contexte de réduction des cheptels en France et dans les principaux pays producteurs européens. Tandis que les importations d’ovins vivants baissent sur un an, la France accroît ses importations de viande ovine pour répondre au rebond de la consommation intérieure en 2022, dans le cadre d’une longue tendance à la baisse. Face à une offre qui reste limitée, les cours des agneaux progressent nettement tout au long de l’année pour atteindre des niveaux record. Dans le même temps, les coûts de production continuent d’augmenter.
+ 
+ 
+## En 2022, nouveau repli de la production
+ 
+ 
+ 
+::::{.cr-section}
+ 
+
+ En 2022, la production ovine se replie pour la troisième année consécutive (graphique 1). Le recul atteint 68 000 têtes sur un an (- 1,6 %), portant la production à 4,3 millions de têtes.[@cr-Graph_Prod]
+ 
+:::{#cr-Graph_Prod}
+ 
+ ![](./img/Graph_Prod_Ovine.jpg)
+:::
+ 
+ 
+ Cette baisse est la conséquence du recul de 3,3 % de la production d’agneaux (- 124 000 têtes), la production d’ovins adultes augmentant de 9,6 % sur un an (+ 56 000 têtes) (tableau 1).
+ 
+::::
+ 
+## En France comme dans l’Union européenne, baisse du cheptel ovin en dix ans
+
+Entre 2012 et 2022, le cheptel ovin français se replie de 11,5 %, passant de 7,45 millions de têtes à 6,60 millions. Sur un an, les effectifs sont en baisse de 5,6 % (- 394 000 têtes). 
+ 
+ 
+::::{.cr-section}
+
+
+
+

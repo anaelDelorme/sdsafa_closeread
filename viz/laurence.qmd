@@ -1,0 +1,74 @@
+---
+title: "LE PARC NATIONAL KRUGER SOUTH AFRICA"
+format: closeread-html
+---
+
+Un voyage dans le parc Kruger, c'est plus qu'une simple aventure. C'est une immersion totale dans un écosystème sauvage qui rappelle la beauté brute et l'importance de préserver notre planète.
+
+::::::: cr-section
+::: {#cr-monImage1}
+![](./img/20190815_085113%20-%20Copie.jpg)
+:::
+
+**Le parc national Kruger** <br> Le parc national Kruger, situé au cœur de l'Afrique du Sud, est l'un des plus grands et des plus célèbres sanctuaires de la faune sauvage au monde. Couvrant près de 20 000 kilomètres carrés, il offre un spectacle inoubliable pour les amoureux de la nature et les aventuriers. Ici, la biodiversité est impressionnante : on y trouve les fameux "Big Five" -- lion, léopard, éléphant, buffle et rhinocéros -- mais aussi une multitude d'autres espèces, des zèbres aux girafes, en passant par des centaines d'oiseaux exotiques. @cr-monImage1
+
+::: {#cr-grille_images}
+```{=html}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: center;">
+ 
+  <div>
+    <img src="img/20190819_112654.jpg" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;"></p>
+  </div>
+  <div>
+    <img src="img/20190818_123852.jpg" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;"></p>
+  </div>
+  <div>
+    <img src="img/20190816_142318 - Copie.jpg" alt="Photo 3" style="width: 100%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;"></p>
+  </div>
+  <div>
+    <img src="img/20190819_173919.jpg" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;"></p>
+  </div>
+ 
+</div>
+```
+:::
+
+**Un véritable paradis pour les safaris** <br> Le parc est un véritable paradis pour les safaris. Que ce soit en voiture, en 4x4 ou à pied avec un guide expérimenté, chaque coin du Kruger réserve son lot de découvertes surprenantes. Le matin, la brume se dissipe lentement, révélant des paysages spectaculaires de savanes dorées et de rivières sinueuses, tandis que le crépuscule transforme le ciel en une palette de couleurs magiques. @cr-grille_images
+
+::: {#cr-monImage3}
+![](./img/20190819_171928.jpg)
+:::
+
+**Un écosystème fragile** <br> Ce qui rend le Kruger unique, c'est aussi sa diversité d'habitats : des forêts luxuriantes aux prairies ouvertes, en passant par des marécages. Chaque écosystème abrite des animaux et des plantes différentes, ce qui crée un équilibre fragile et fascinant. Les visiteurs peuvent découvrir la vie sauvage dans son état le plus pur, tout en étant respectueux de l'environnement et des règles de conservation strictes. @cr-monImage3
+
+::: {#cr-grille_images2}
+```{=html}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; text-align: center;">
+ 
+  <div>
+    <img src="img/20190816_070933 - Copie.jpg" alt="Photo 1" style="width: 100%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;"></p>
+  </div>
+  <div>
+    <img src="img/20190819_090856.jpg" alt="Photo 2" style="width: 100%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;"></p>
+  </div>
+  <div>
+    <img src="img/20190816_100039.jpg" alt="Photo 3" style="width: 100%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;"></p>
+  </div>
+  <div>
+    <img src="img/20190816_100051.jpg" alt="Photo 4" style="width: 100%; border-radius: 8px;">
+    <p style="margin-top: 5px; font-size: 14px;"></p>
+  </div>
+ 
+</div>
+```
+:::
+
+**Des hébergements pour tous les goûts** <br> En plus de sa faune exceptionnelle, le Kruger offre des hébergements pour tous les goûts, du camping sauvage aux lodges de luxe, permettant à chacun de vivre une expérience inoubliable. Se lever tôt pour observer les animaux, ou se détendre au coucher du soleil tout en écoutant les bruits de la savane, fait du Kruger un lieu magique où l'on se reconnecte avec la nature. @cr-grille_images2
+:::::::

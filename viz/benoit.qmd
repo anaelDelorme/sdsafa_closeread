@@ -1,0 +1,61 @@
+---
+title: Rando Atlas
+Author: BM
+format:
+  closeread-html:
+    theme: cyborg
+    backgroundcolor: lightsteelblue
+    fontsize: 0.9em
+---
+
+Un journée de rando dans l'Atlas marocain.
+
+::::{.cr-section}
+
+
+:::{#cr-image1}
+
+![](./img/06052022-2.jpg)
+:::
+<b>Belle vallée</b>
+<br><br>
+Je marche à nouveau longtemps sur une piste, mais la beauté des paysages compense. Je file vers le village d’**Ait Haddou Youssef** pour y trouver un peu de nourriture à acheter. @cr-image1
+
+
+:::{#cr-image2}
+![](./img/06052022-4.jpg)
+:::
+
+<b>Arrivée au village de Ait Haddou Youssef</b>
+<br><br>
+J’y arrive juste avant 13h, alors que la mosquée émet un appel à la prière du vendredi et que nombre de berbères se dirigent vers elle. Je suis également le flux en espérant trouver une boutique. Mais je ne vois rien, peut-être que le vendredi à cette heure c’est fermé...
+<br><br>
+Du coup je traîne un peu en espérant je-ne-sais-quoi. Mais mon inch’allah d’hier avant de dormir semble avoir marché, puisqu’Abdellah me croise vers 13h et insiste pour m’inviter à manger ! Pain à l’huile d’olive (pourquoi je ne fais pas ça d’ailleurs en randonnée, moi qui adore l’huile d’olive ?), thé, gâteaux… quel bonheur ! [@cr-image2]{scale-by="1.2" pan-to="-2%,2%"}
+
+:::{#cr-image3}
+![](./img/06052022-5.jpg)
+:::
+
+<b>Prière du vendredi chez Abdallah</b>
+<br><br>
+La communication est difficile avec des signes, mais son cousin passe à un moment et il parle quelques mots de français. Il me propose de manger le tajine avec eux et même de dormir là. Quand je les écoute parler je devine de l’amazigh et non de l’arabe, ce qu’Abdellah me confirme.
+<br><br>
+Tout le monde parle amazigh. Par contre on ne s’est sûrement pas compris sur le tajine, je pense que c’était pour la fin de journée et non de suite, donc je finis par repartir après un bon repos et le gros du cagnard passé. Quelle gentillesse cet Abdellah [@cr-image3]
+
+
+:::{#cr-image4}
+![](./img/06052022-6.jpg)
+:::
+
+**Montée vers un col paumé**
+<br><br>
+Je commence la montée vers le col Tizi n’Timirout en suivant un papy sur un âne. Il m’indique ensuite la direction, je le remercie en amazigh « tanmirt », il est surpris et très content à son grand sourire !
+<br><br>
+Après le col je passe à nouveau plusieurs villages, où les propositions sont nombreuses, avec des berbères toujours le cœur sur la main (thé, pain, dormir, mobylette…). Mais le problème est toujours le même dans ces vallées habitées, c’est trouver un endroit où dormir. Je n’ai pas accepté une proposition d’un berbère parce que je préfère marcher tard : je dois avancer à cause de mes réserves, et c’est mon moment préféré de la journée. Je finis quand même toujours par trouver un coin (avec de la chance quand même parfois) : cette fois dans un virage j’aperçois quelques terrasses, j’y grimpe et trouve une maison abandonnée à flanc de montagne dans laquelle je me pose. Royal !@cr-image4
+
+
+
+
+
+::::
+

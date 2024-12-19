@@ -1,0 +1,75 @@
+---
+title: "Ma data viz"
+author: "Lucie"
+format: closeread-html
+theme: blue
+backgroundcolor: darkslateblue
+fontsize: 1.4em
+---
+
+# Les plantes de service
+
+Les plantes de service sont un ensemble d’espèces végétales cultivées, ayant pour objectif d’améliorer des fonctions de l’agroécosystème, sans vocation à être récoltées ou pâturées. Ce terme renvoie communément à des espèces herbacées semées, mais peut être étendu aux haies et aux arbres. Il rejoint alors la notion d’infrastructures agroécologiques.
+
+Les plantes de service peuvent s’implanter entre deux cultures (culture intermédiaire multi-services) ou associée à la culture principale (plante compagne). Elles peuvent couvrir la parcelle de manière pérenne (ex : luzerne), ou temporaire (ex : fabacée gélive).
+
+::::{.cr-section}
+## Les cultures intermédiaires multi-services
+
+:::{#cr-cims}    
+![](./img/Couvert-vegetal.jpg)
+
+:::
+
+*Mélange Féverole phacélie tournesol* [@cr-cims]{scale-by="1.5"}
+
+## Plante compagne 
+
+:::{#cr-compagne} 
+![](./img/colza.png)
+:::
+
+*Colza-pois* [@cr-compagne]{scale-by="1.5"}
+
+::::
+
+::::{.cr-section}
+
+## Services écosystémiques fournis
+:::{#cr-services}
+<br> Amélioration du cycle de l’azote 
+<br> Lutte contre les bioagresseurs 
+<br> Habitat pour les pollinisateurs et auxiliaires de cultures 
+<br> Préservation et amélioration de la fertilité physique 
+<br> Réduction des risques de pollution de l’eau 
+<br> Contribution à la diversité et l’esthétique des paysages
+:::
+[@cr-services]{scale-by="1.5"}
+
+
+::::
+
+
+
+
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
