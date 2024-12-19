@@ -16,7 +16,7 @@ jobs:
       - name: Set up system dependencies 
         run: | 
           sudo apt-get update 
-          sudo apt-get install -y libproj-dev gdal-bin
+          sudo apt-get install -y libproj-dev gdal-bin libudunits2-dev
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
