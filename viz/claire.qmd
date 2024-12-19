@@ -1,0 +1,223 @@
+---
+title: Les traitements phytosanitaires
+author: SSP
+format: 
+  closeread-html:
+    theme: cerulean
+    backgroundcolor: "#CCF5FC"
+    fontsize: 1.4em
+    cr-section:
+    cr-style:
+      narrative-background-color-sidebar: "#BDE1D7"
+      narrative-text-color-sidebar: black
+      section-background-color: "#BDE1D7"
+      narrative-text-color-overlay: black
+      
+---
+
+![](./img/4_logos.png)
+
+Les produits phytopharmaceutiques⁠ (que l'on appelle aussi « pesticides ») sont des substances chimiques ou biologiques, telles que les herbicides, les insecticides ou les fongicides⁠. Ils protègent les cultures contre les maladies, les ravageurs ou les plantes adventices⁠.
+
+
+# Contexte
+
+
+
+::::{.cr-section}
+
+:::{#cr-image1}
+
+![](./img/def_pesticides.png) 
+
+::: 
+
+
+Le terme **« phytopharmaceutique »** - ou **« phytosanitaire »** - exclut les engrais et autres substances nutritives comme les oligo-éléments.
+Les fongicides luttent contre les maladies causées par des champignons.
+« Adventice »  désigne celles que l’on dénomme traditionnellement - et parfois injustement - les « mauvaises herbes ». [@cr-image1]{scale-by="0.8"}
+
+:::{#cr-image2}
+
+![](./img/calendrier_ble_tendre.PNG)
+
+:::
+
+
+**50** : C’est le nombre de cultures suivies par 4 grandes enquêtes récurrentes sur les 
+pratiques culturales⁠.
+
+Elles concernent la viticulture, les grandes cultures, l’arboriculture et les légumes. @cr-image2
+
+::::
+
+# Définitions
+
+
+
+
+Pour évaluer la pression phytosanitaire sur une parcelle, on regarde d’abord les différents produits utilisés. Si lors d’un passage un agriculteur applique un mélange de deux produits, cela compte pour deux « traitements ». Un même produit appliqué deux fois sur une parcelle compte également pour deux traitements.
+
+Une agence nationale, l’Anses⁠, établit pour chaque produit une dose homologuée⁠, la dose maximale autorisée par traitement, définie pour chaque usage de ce produit.
+
+
+Pour calculer un **« indice de fréquence de traitement »**, on utilise une « dose de référence » : c’est la plus grande dose homologuée du produit pour une culture donnée, et pour une cible donnée (ex. : le mildiou de la vigne). Elle s’exprime typiquement en kilos par hectare⁠, litres par ha, ou litre de produit par hectolitre d’eau.
+
+
+
+
+::::{.cr-section}
+
+L’**indice de fréquence de traitement (IFT)** additionne le nombre de doses de référence qu’une parcelle va recevoir durant un cycle de production⁠.
+Si 2 passages ont eu lieu avec chaque fois la dose de référence, l’IFT est de 2. Si un seul passage avait appliqué une dose 2 fois plus élevée que la référence, cela compterait aussi pour 2. @cr-image4
+
+:::{#cr-image4}
+
+![](./img/abeille.PNG) 
+
+:::
+
+L’IFT tient compte de la **surface traitée** ; dans certains cas, une partie seulement de la parcelle est traitée. Si seulement 50 % de la parcelle a été traitée avec 2 produits à la dose de référence, on dira que l’IFT total de la parcelle est de 2 x 50 % = 1.
+
+Tout cela se résume par la formule suivante, qui vaut pour un seul produit administré : [@cr-image5]{scale-by="1.5" pan-to="15%,-40%"}
+
+
+:::{#cr-image5}
+
+![](./img/formule_ift.PNG) 
+:::
+
+::::
+
+::::{.cr-section}
+
+Enfin, l’IFT total d’une parcelle additionne⁠ les IFT pour tous les traitements appliqués à la même parcelle sur un cycle de production. [@cr-texte1]{zoom-to="3"}
+
+:::{#cr-texte1}
+
+L’IFT permet donc d’agréger des substances pesticides très différentes : il quantifie l’**accumulation des traitements sur une parcelle**. 
+En revanche, il n’est pas fait pour mesurer précisément l’impact⁠ de ces traitements sur l’environnement ou la santé.
+
+:::
+
+::::
+
+# Indicateur de fréquence de traitement (IFT) par culture
+
+
+::::{.cr-section}
+
+En 2021, l’IFT est de **5 pour le blé tendre** : cela signifie qu’une culture de blé a reçu en moyenne 5 doses (en cumul) de produits phytopharmaceutiques dans l’année.
+Pour la **pomme** en 2018, il est de presque **30** (et 19 pour la pomme « bio »). [@cr-graphe1]{scale-by="1"}
+
+:::{#cr-graphe1}
+
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 12
+#| fig-height: 8
+
+
+
+library(readr)
+library(ggplot2)
+ift_arbo_viti <- read_delim("./data/ift_arbo_viti.csv")
+
+ggplot(ift_arbo_viti, aes(x=culture, y=ift) ) +
+  geom_segment( aes(x=culture ,xend=culture, y=0, yend=ift), color="grey") +
+  geom_point(size=3, color="#69b3a2") +
+  xlab("Culture") +
+  ylab("IFT") +
+  labs(title = "IFT selon les cultures", subtitle = "Source : Agreste - Enquêtes pratiques culturales 2018 (Arboriculture) et 2019 (Viticulture)") +
+  coord_flip() +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5)
+  ) +
+  theme(axis.text=element_text(size=12),
+            axis.title=element_text(size=14))
+
+```
+:::
+
+
+
+Pour un même fruit ou légume, les besoins de traitement peuvent différer sensiblement selon le mode de culture.[@cr-graphe2]{scale-by="1"}
+
+:::{#cr-graphe2}
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 12
+#| fig-height: 8
+
+library(dplyr)
+library(tidyr)
+
+ift_mode_culture <- read_delim("./data/3_indice-de-frequence-de-traitement-selon-mode-culture.csv")
+
+ift <- ift_mode_culture %>% pivot_longer(cols=2:4, names_to='mode_culture', values_to='ift')
+
+ggplot(ift, aes(fill=mode_culture, y=ift, x=culture)) + 
+  geom_bar(position="dodge", stat="identity")  +
+  xlab("Culture") +
+  ylab("IFT") +
+  labs(title = "IFT selon les modes de culture", subtitle = "Source : Agreste - Enquêtes pratiques culturales 2018 (Arboriculture) et 2019 (Viticulture)") +
+  coord_flip() +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5)
+  ) +
+  theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14)) +
+  labs(fill = "Mode de culture") + 
+  theme(legend.key.size = unit(1, "cm"))
+
+```
+:::
+
+
+Selon la destination du blé tendre (alimentation humaine, animale...), les pratiques phytosanitaires diffèrent, ce qui peut éclairer les variations géographiques.[@cr-graphe3]{scale-by="1"}
+
+:::{#cr-graphe3}
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 12
+#| fig-height: 8
+
+library(sf)
+Fr.reg <-read_sf("./data/regions-avant-redecoupage-2015.geojson")
+library(readxl)
+ift_gc2017_ble_tendre <- read_excel("./data/5_carte_ift_gc2017_ble_tendre.xlsx")
+
+carte <- Fr.reg %>% left_join(ift_gc2017_ble_tendre, by = c("nom" = "Region")) %>% 
+  mutate(IFT_ble_tendre = as.numeric(IFT_ble_tendre))
+
+
+ggplot() +
+  geom_sf(data = carte, aes(fill = IFT_ble_tendre)) + 
+  scale_fill_gradient(low = "lightblue", high = "darkblue") + 
+  labs(fill = "IFT") +
+  labs(title = "IFT pour la culture du blé tendre (par ancienne région)", subtitle = "Source : Agreste - Enquêtes pratiques culturales 2021 (Grandes cultures)") +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5)
+  ) 
+  
+```
+:::
+
+
+::::
+

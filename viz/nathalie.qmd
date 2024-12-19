@@ -1,0 +1,264 @@
+---
+title: Montesquieu-Lauragais
+Author: Moi
+
+format: 
+  closeread-html:
+    theme: cyborg
+    backgroundcolor: "#6F0B17"
+    fontsize: 1.4em
+    cr-section:
+      layout: "overlay-left"
+    cr-style:
+      narrative-background-color-sidebar: white
+      narrative-text-color-sidebar: white
+      section-background-color: "#B38D8C"
+      narrative-background-color-overlay: "#B3685E"
+      narrative-text-color-overlay: white
+      arrative-text-color-overlay: "#6F0B17"
+---
+
+::: cr-section
+
+::: {#cr-image1}
+![](./img/3661306150737.jpg)
+:::
+
+Autrefois appelé Montesquieu-sur-Canal, **Montesquieu-Lauragais** s'est développé sur une colline, autour d'un château féodal. Grâce à sa situation géographique, le village est devenu un lieu de passage incontournable, qui a connu tous les temps forts de l'Histoire du Lauragais, de la tragédie cathare au Moyen Âge à la fabuleuse construction du canal du Midi, en traversant les âges d'or du blé et du pastel. [@cr-image1]{scale-by="1" pan-to="25%,-25%"}
+
+# Histoire
+
+::: {#cr-image2}
+![](./img/CASINI.png)
+:::
+
+::: {#cr-image3}
+![](./img/Blason.svg)
+:::
+
+::: {#cr-image6}
+![](./img/Le_clocher-mur_de_l'église_Saint-Jacques.jpg)
+:::
+
+**Retour aux origines **<br></br> 
+A une époque lointaine, une grande forêt recouvrait le Lauragais. Non loin de la voie dʼAquitaine reliant Toulouse à la mer Méditerranée, un château fort fut édifié vers lʼan 1000 sur un promontoire. Petit à petit, des maisons furent construites autour. L'agglomération, appelée "castrum" prendra le nom de Montesquieu, signifiant "le mont sauvage".
+
+Bernard de Montesquieu est le premier seigneur à être cité dans les textes historiques en 1140. Cependant, dès l'origine, plusieurs co-seigneurs se partagent le pouvoir et ce, jusqu'à la Révolution Française. Au XIIIème siècle, Montesquieu devient un grand centre du catharisme en Lauragais. Une dizaine de maisons cathares existent ainsi qu'un des cinq cimetières cathares du Lauragais. [@cr-image2]{scale-by="1.5" pan-to="25%,-50%"}
+
+
+**Une terrible destruction **<br></br> 
+Lʼautre période marquante du village est le XVIème siècle et ses guerres de religion. En ces temps-là, tous les seigneurs de Montesquieu se convertissent au protestantisme. Ils vivent de pillages et rançonnent tous les marchands circulant sur la voie dʼAquitaine. Le Parlement de Toulouse, souhaitant mettre un terme à ces brigandages, fait intervenir les troupes catholiques du duc de Joyeuse. Cʼest ainsi que 4000 hommes assiègent Montesquieu pendant 10 jours du 23 juin au 3 juillet 1586. 
+La ville est détruite au canon : les fossés sont comblés, les maisons, les remparts et l’église brûlés. Malgré une interdiction de reconstruire la ville, des soldats bâtissent un fort 10 ans plus tard pour servir de retraite à ses habitants.
+
+**La reconstruction **<br></br> 
+Le bourg se relève rapidement de ses cendres et la reconstruction de l’église s’effectue à partir de 1600. [@cr-image6]{scale-by="1" pan-to="25%,-25%"}
+
+**Le blason **<br></br> 
+De gueules à l'arbre d'argent posé sur une terrasse de sinople accompagné à dextre d'un loup contrepassant d'or, et à senestre d'un mouton d'argent. [@cr-image3]{scale-by="1" pan-to="25%,-25%"}
+
+
+::: {#cr-image4}
+![](./img/CanalMidi2.jpg)
+:::
+
+::: {#cr-image5}
+![](./img/CanalMidi1.jpg)
+:::
+
+**L'âge d'or du canal du midi ** <br></br> 
+A la fin du XVIIème siècle, le canal du Midi ouvre une nouvelle ère de prospérité avec lʼécluse de Négra, construite en contrebas du village. Elle sert alors de halte pour les passagers de la barque de Poste. Cette dernière faisait le trajet de Toulouse à Agde en 4 jours. Négra était la première halte pour les voyageurs avec une auberge pour prendre le repas du midi (la dînée) avant de continuer la navigation vers Castelnaudary.[@cr-image4]{scale-by="1.5" pan-to="25%,-50%"}
+
+Cette auberge était tenue au XVIIIème siècle par Jacques Duglas dont la belle demeure est toujours visible rue des Plumassières près de lʼéglise Saint-Jacques. Lʼécluse de Négra abrite une chapelle bâtie par le fils de Pierre-Paul Riquet. Elle est encore consacrée, au même titre que celle du Somail. [@cr-image5]{scale-by="1.5" pan-to="25%,-50%"}
+
+::::
+
+# Les monuments principaux
+
+::: cr-section
+
+::: {#cr-image11}
+![](./img/Mairie.jpg)
+:::
+
+::: {#cr-image12}
+![](./img/La_nef_de_l'église_Saint-Jacques.jpg)
+:::
+
+
+::: {#cr-image13}
+![](./img/RuePrincipale.jpg)
+:::
+
+::: {#cr-image14}
+![](./img/RueAncienPetitFossé.jpg)
+:::
+
+
+:::{#cr-image15}
+![](./img/DependancesChateau.jpg)
+:::
+
+::: {#cr-image16}
+![](./img/Le_ponceau.jpg)
+:::
+
+La mairie [@cr-image11]{pan-to="25%,-25%"}
+
+La nef de l'église Saint-Jacques [@cr-image12]{scale-by="1" pan-to="25%,-25%"}
+
+La rue principale [@cr-image13]{ pan-to="25%,-25%"}
+
+La rue de l'Ancien Petit Fossé [@cr-image14]{ pan-to="25%,-25%"}
+
+Dépendances du château [@cr-image15]{scale-by="1" pan-to="25%,-25%"}
+
+Le ponceau du chemin de ronde [@cr-image16]{pan-to="25%,-25%"}
+
+::::
+
+# Évolution de la population
+
+::: cr-section
+::: {#cr-graphique1}
+```{r, message=FALSE}
+
+# Charger le package nécessaire
+library(dplyr)
+library(echarts4r)
+
+# Créer un jeu de données exemple
+data <- data.frame(
+  année = c(1793,1800,1806,1821,1831,1836,1841,1846,1851,1856,1861,1866,1872,1876,1881,1886,1891,1896,1901,1906,1911,1921,1926,1931,1936,1946,1954,1962,1968,1975,1982,1990,2000,2010,2015,2021),
+  population = c(1471,1493,1428,1386,1385,1400,1390,1411,1368,1373,1319,1161,1116,1088,1053,1009,928,956,828,860,815,775,794,760,757,747,757,680,646,564,654,742,846,917,946,1039) 
+  )
+
+# Créer un graphique combiné avec les variables année, population et élèves
+data %>%
+  e_charts(année, width=1000) %>%
+  e_line(population, name = "Population", itemStyle = list(color = "#70122A")) %>%
+  e_title(
+    "Évolution de la population",
+     textStyle = list(
+      fontFamily = "Verdana",  # Choisissez une police
+      fontSize = 20,         # Taille du texte
+      fontWeight = "bold",   # Style gras
+      color = "#CC1830"      # Couleur du texte
+    )) %>% 
+  e_tooltip(trigger = "axis") %>%
+  e_legend(show = TRUE) %>% 
+  e_x_axis(type = "category")  %>% # Spécifier que l'axe x est catégorique (pour éviter les décimales)
+   e_x_axis(
+    axisLine = list(lineStyle = list(color = "black")),  # Ligne de l'axe X en bleu
+    axisLabel = list(color = "#CC1830", fontWeight = "bold", fontSize = 12) # Étiquettes de l'axe X en rouge
+  ) %>%
+  e_y_axis(
+    axisLine = list(lineStyle = list(color = "green")), # Ligne de l'axe Y en vert
+    axisLabel = list(color = "#CC1830", fontWeight = "bold", fontSize = 12)   # Étiquettes de l'axe Y en violet
+  ) %>% 
+   # e_theme("light") %>%       # Applique un thème clair
+   e_grid(backgroundColor = "#267BBD")  # Définit explicitement le fond blanc
+```
+:::
+
+::: {#cr-graphique2}
+```{r GRAPH2, message=FALSE}
+
+# Charger le package nécessaire
+library(dplyr)
+library(echarts4r)
+
+# Créer un jeu de données exemple
+data <- data.frame(
+  année = c(1793,1800,1806,1821,1831,1836,1841,1846,1851,1856,1861,1866,1872,1876,1881,1886,1891,1896,1901,1906,1911,1921,1926,1931,1936,1946,1954,1962,1968,1975,1982,1990,2000,2010,2015,2021),
+  population = c(1471,1493,1428,1386,1385,1400,1390,1411,1368,1373,1319,1161,1116,1088,1053,1009,928,956,828,860,815,775,794,760,757,747,757,680,646,564,654,742,846,917,946,1039), 
+  résidences_principales = c(NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,156,165,204,253,303,355,385,404)
+)
+
+# Créer un graphique combiné avec les variables année, population et élèves
+data %>%
+  e_charts(année, width=1000) %>%
+  e_line(population, name = "Population", itemStyle = list(color = "#70122A")) %>%
+  e_line(résidences_principales, name = "Résidences principales", itemStyle = list(color = "#3D7037")) %>%
+  e_title(
+    "Évolution de la population",
+     textStyle = list(
+      fontFamily = "Verdana",  # Choisissez une police
+      fontSize = 20,         # Taille du texte
+      fontWeight = "bold",   # Style gras
+      color = "#CC1830"      # Couleur du texte
+    )) %>% 
+  e_tooltip(trigger = "axis") %>%
+  e_legend(show = TRUE) %>% 
+  e_x_axis(type = "category")  %>% # Spécifier que l'axe x est catégorique (pour éviter les décimales)
+   e_x_axis(
+    axisLine = list(lineStyle = list(color = "black")),  # Ligne de l'axe X en bleu
+    axisLabel = list(color = "#CC1830", fontWeight = "bold", fontSize = 12) # Étiquettes de l'axe X en rouge
+  ) %>%
+  e_y_axis(
+    axisLine = list(lineStyle = list(color = "green")), # Ligne de l'axe Y en vert
+    axisLabel = list(color = "#CC1830", fontWeight = "bold", fontSize = 12)   # Étiquettes de l'axe Y en violet
+  ) %>% 
+   # e_theme("light") %>%       # Applique un thème clair
+   e_grid(backgroundColor = "#267BBD")  # Définit explicitement le fond blanc
+```
+:::
+La population a beaucoup évolué au fil du temps. Le village comportait l'une des plus forte population du Lauragais. [@cr-graphique1]{pan-to="25%"}
+
+Depuis les années 60, . [@cr-graphique2]{pan-to="25%"}
+
+:::
+
+# L'école Marius Izar
+
+::: cr-section
+
+::: {#cr-image7}
+![](./img/EcoleEntree.jpg)
+:::
+
+::: {#cr-graphique3}
+```{r GRAPH3, message=FALSE}
+
+# Charger le package nécessaire
+library(dplyr)
+library(echarts4r)
+
+# Créer un jeu de données exemple
+data <- data.frame(
+  année = c(2019,2020,2021,2022,2023,2024),
+  éleves = c(120,112,104,95,96,94)
+)
+
+# Créer un graphique combiné avec les variables année, population et élèves
+data %>%
+  e_charts(année, width=1000) %>%
+  e_line(éleves, name = "Élèves", itemStyle = list(color = "#70122A")) %>%
+  e_title(
+    "Évolution des élèves",
+     textStyle = list(
+      fontFamily = "Verdana",  # Choisissez une police
+      fontSize = 20,         # Taille du texte
+      fontWeight = "bold",   # Style gras
+      color = "#CC1830"      # Couleur du texte
+    )) %>% 
+  e_tooltip(trigger = "axis") %>%
+  e_legend(show = TRUE) %>% 
+  e_x_axis(type = "category")  %>% # Spécifier que l'axe x est catégorique (pour éviter les décimales)
+   e_x_axis(
+    axisLine = list(lineStyle = list(color = "black")),  # Ligne de l'axe X en bleu
+    axisLabel = list(color = "#CC1830", fontWeight = "bold", fontSize = 12) # Étiquettes de l'axe X en rouge
+  ) %>%
+  e_y_axis(
+    axisLine = list(lineStyle = list(color = "green")), # Ligne de l'axe Y en vert
+    axisLabel = list(color = "#CC1830", fontWeight = "bold", fontSize = 12)   # Étiquettes de l'axe Y en violet
+  ) %>% 
+   # e_theme("light") %>%       # Applique un thème clair
+   e_grid(backgroundColor = "#267BBD")  # Définit explicitement le fond blanc
+```
+:::
+
+École Marius Izar est la seule école de la commune. Elle comprend le niveau maternelle et élémentaire. [@cr-image7]{pan-to="25%"}
+
+L'école de Marius Izar voit ses effectifs en baisse depuis quelques années. En 2022, elle perdait une classe. Aujourd'hui, elle compte 4 classes multi-niveaux. [@cr-graphique3]{pan-to="25%"}
+
+:::
