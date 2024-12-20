@@ -1,11 +1,12 @@
 ---
 title: "Aurecler"
-author : Pauline
-format: closeread-html
-theme: solar
-backgroundcolor: "#D8E07B"
-fontsize: 1.4em
-cr-style:
+author: Pauline
+format: 
+  closeread-html:
+    theme: solar
+    backgroundcolor: "#D8E07B"
+    fontsize: 1.4em
+    cr-style:
       narrative-background-color-sidebar: darkslateblue
       narrative-text-color-sidebar: white
       section-background-color: darkslateblue

@@ -31,3 +31,11 @@ website:
           - viz/vincent.qmd
       - href: about.qmd
         text: A propos
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: superhero
+    css: styles.css
+    toc: true

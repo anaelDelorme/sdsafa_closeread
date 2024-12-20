@@ -1,0 +1,15 @@
+{
+  "hash": "f6682f75024aafd580a2a5a8f2e4cbca",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Ma data viz\"\nauthor: \"Lucie\"\nformat: closeread-html\ntheme: blue\nbackgroundcolor: darkslateblue\nfontsize: 1.4em\n---\n\n\n\n\n\n\n\n\n# Les plantes de service\n\nLes plantes de service sont un ensemble d’espèces végétales cultivées, ayant pour objectif d’améliorer des fonctions de l’agroécosystème, sans vocation à être récoltées ou pâturées. Ce terme renvoie communément à des espèces herbacées semées, mais peut être étendu aux haies et aux arbres. Il rejoint alors la notion d’infrastructures agroécologiques.\n\nLes plantes de service peuvent s’implanter entre deux cultures (culture intermédiaire multi-services) ou associée à la culture principale (plante compagne). Elles peuvent couvrir la parcelle de manière pérenne (ex : luzerne), ou temporaire (ex : fabacée gélive).\n\n::::{.cr-section}\n## Les cultures intermédiaires multi-services\n\n:::{#cr-cims}    \n![](./img/Couvert-vegetal.jpg)\n\n:::\n\n*Mélange Féverole phacélie tournesol* [@cr-cims]{scale-by=\"1.5\"}\n\n## Plante compagne \n\n:::{#cr-compagne} \n![](./img/colza.png)\n:::\n\n*Colza-pois* [@cr-compagne]{scale-by=\"1.5\"}\n\n::::\n\n::::{.cr-section}\n\n## Services écosystémiques fournis\n:::{#cr-services}\n<br> Amélioration du cycle de l’azote \n<br> Lutte contre les bioagresseurs \n<br> Habitat pour les pollinisateurs et auxiliaires de cultures \n<br> Préservation et amélioration de la fertilité physique \n<br> Réduction des risques de pollution de l’eau \n<br> Contribution à la diversité et l’esthétique des paysages\n:::\n[@cr-services]{scale-by=\"1.5\"}\n\n\n::::\n\n\n\n\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n## Running Code\n\nWhen you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n\n\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n\n\n\n\n\nYou can add options to executable code like this\n\n\n\n\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 4\n```\n\n\n:::\n:::\n\n\n\n\n\n\n\n\nThe `echo: false` option disables the printing of code (only output is displayed).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
