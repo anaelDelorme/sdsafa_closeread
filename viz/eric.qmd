@@ -44,18 +44,40 @@ library(tidyverse)
 shp_path <- "./data/2024-12-02_delim-parcellaire-aoc-shp.shp"
 
 if (file.exists(shp_path)) {
+  # Chargement du fichier SHP
+  com_France <- tryCatch(
+    st_read(shp_path, quiet = TRUE),
+    error = function(e) {
+      message("Erreur lors de la lecture du fichier SHP : ", e$message)
+      NULL
+    }
+  )
 
-  com_France = st_read(shp_path, quiet=T)
-  list_bdx<-c('Barsac', 'Haut-Médoc', 'Listrac-Médoc','Margaux', 'Médoc','Pauillac','Pessac-Léognan','Saint-Estèphe','Saint-Julien','Sauternes')
-  aoc_medoc<-com_France %>% filter(app %in% list_bdx)
-  
-  tmap_mode("view")
-  tm_shape(aoc_medoc)+ tm_polygons(
-      col = "app",
-      popup.vars = c("Appelation" = "app", "Commune" = "nomcom"),
-      title = "AOC")+ tm_view()
+  if (!is.null(com_France)) {
+    # Liste des AOC à filtrer
+    list_bdx <- c(
+      'Barsac', 'Haut-Médoc', 'Listrac-Médoc',
+      'Margaux', 'Médoc', 'Pauillac', 
+      'Pessac-Léognan', 'Saint-Estèphe', 
+      'Saint-Julien', 'Sauternes'
+    )
+
+    # Filtrage des données
+    aoc_medoc <- com_France %>% filter(app %in% list_bdx)
+
+    # Affichage de la carte interactive
+    tmap_mode("view")
+    tm_shape(aoc_medoc) +
+      tm_polygons(
+        col = "app",
+        popup.vars = c("Appellation" = "app", "Commune" = "nomcom"),
+        title = "AOC"
+      ) +
+      tm_view()
+  }
+} else {
+  message("Fichier SHP introuvable : ", shp_path)
 }
-
 ```
 ::::
 
