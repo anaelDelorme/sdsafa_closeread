@@ -774,13 +774,13 @@
     },
     "geometries": {
       "Package": "geometries",
-      "Version": "0.2.3",
+      "Version": "0.2.4",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "Rcpp"
       ],
-      "Hash": "122e8341ead01f3746dd312ecc5ffd28"
+      "Hash": "a722b946e99fd7a006ab1239c0d1b2bc"
     },
     "ggplot2": {
       "Package": "ggplot2",
