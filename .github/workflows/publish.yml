@@ -28,7 +28,7 @@ jobs:
 
       - name: Install specific version of sf
         run: | 
-          Rscript -e "install.packages('sf', repos = 'https://cran.rstudio.com/', type = 'binary')"
+          Rscript -e "install.packages('sf', repos = 'https://cran.rstudio.com/')"
 
       - name: Configure renv to use global sf
         run: |
