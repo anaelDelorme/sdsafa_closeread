@@ -30,10 +30,9 @@ jobs:
         run: | 
           Rscript -e "install.packages('sf', repos = 'https://cran.rstudio.com/')"
 
-      - name: Configure renv to use global sf
+      - name: Exclude sf and use global installation
         run: |
-          Rscript -e "renv::settings$package.dependency('sf', ignore = TRUE)"
-          Rscript -e "renv::settings$use.cache(TRUE)"
+          Rscript -e "renv::hydrate(packages = 'sf')"
 
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
