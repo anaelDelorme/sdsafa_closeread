@@ -41,15 +41,20 @@ library(btb)
 library(tmap)
 library(tidyverse)
 
-com_France = st_read('./data/2024-12-02_delim-parcellaire-aoc-shp.shp', quiet=T)
-list_bdx<-c('Barsac', 'Haut-Médoc', 'Listrac-Médoc','Margaux', 'Médoc','Pauillac','Pessac-Léognan','Saint-Estèphe','Saint-Julien','Sauternes')
-aoc_medoc<-com_France %>% filter(app %in% list_bdx)
+shp_path <- "./data/2024-12-02_delim-parcellaire-aoc-shp.shp"
 
-tmap_mode("view")
-tm_shape(aoc_medoc)+ tm_polygons(
-    col = "app",
-    popup.vars = c("Appelation" = "app", "Commune" = "nomcom"),
-    title = "AOC")+ tm_view()
+if (file.exists(shp_path)) {
+
+  com_France = st_read(shp_path, quiet=T)
+  list_bdx<-c('Barsac', 'Haut-Médoc', 'Listrac-Médoc','Margaux', 'Médoc','Pauillac','Pessac-Léognan','Saint-Estèphe','Saint-Julien','Sauternes')
+  aoc_medoc<-com_France %>% filter(app %in% list_bdx)
+  
+  tmap_mode("view")
+  tm_shape(aoc_medoc)+ tm_polygons(
+      col = "app",
+      popup.vars = c("Appelation" = "app", "Commune" = "nomcom"),
+      title = "AOC")+ tm_view()
+}
 
 ```
 ::::

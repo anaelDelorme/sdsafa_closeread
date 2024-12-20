@@ -26,14 +26,6 @@ jobs:
         with:
           r-version: '4.2.0'
 
-      - name: Install specific version of sf
-        run: | 
-          Rscript -e "install.packages('sf', repos = 'https://cran.rstudio.com/')"
-
-      - name: Exclude sf and use global installation
-        run: |
-          Rscript -e "renv::hydrate(packages = 'sf')"
-
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
