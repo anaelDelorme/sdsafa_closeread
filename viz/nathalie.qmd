@@ -1,7 +1,6 @@
 ---
 title: Montesquieu-Lauragais
 Author: Moi
-
 format: 
   closeread-html:
     theme: cyborg
@@ -33,7 +32,7 @@ Autrefois appelé Montesquieu-sur-Canal, **Montesquieu-Lauragais** s'est dévelo
 :::
 
 ::: {#cr-image3}
-![](./img/Blason.svg)
+![](./img/Blason.png)
 :::
 
 ::: {#cr-image6}
@@ -120,7 +119,7 @@ Le ponceau du chemin de ronde [@cr-image16]{pan-to="25%,-25%"}
 
 ::: cr-section
 ::: {#cr-graphique1}
-```{r, message=FALSE}
+```{r Graph1, message=FALSE, warning=FALSE}
 
 # Charger le package nécessaire
 library(dplyr)
@@ -161,7 +160,7 @@ data %>%
 :::
 
 ::: {#cr-graphique2}
-```{r GRAPH2, message=FALSE}
+```{r GRAPH2, message=FALSE, warning=FALSE}
 
 # Charger le package nécessaire
 library(dplyr)

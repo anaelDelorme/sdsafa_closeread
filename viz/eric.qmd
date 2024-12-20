@@ -8,7 +8,7 @@ theme: journal
 editor: source
 ---
 
-::: cr-section
+:::: cr-section
 ::: {#cr-1855}
 ![](./img/1855.PNG)
 :::
@@ -20,9 +20,9 @@ Le classement de 1855 a été établi en vue d'une présentation des vins de la 
 :::
 
 *La rédaction du classement fut confiée, par la Chambre de Commerce de Bordeaux, au "Syndicat des Courtiers de Commerce" auprès de la Bourse de Bordeaux. Sa mission était d'officialiser une classification basée sur l'expérience de longues années et qui correspondait à la reconnaissance de la qualité du Terroir et à la notoriété de chaque cru. Les éléments furent puisés aux meilleures sources*. @cr-parcelles
-:::
+::::
 
-::: cr-section
+:::: cr-section
 La carte des appelations @cr-carte
 
 ::: {#cr-carte}
@@ -52,8 +52,8 @@ tm_shape(aoc_medoc)+ tm_polygons(
     title = "AOC")+ tm_view()
 
 ```
-:::
-:::
+::::
+
 
 **Le classement comprend 5 grands crus dont 4 médoc**
 
