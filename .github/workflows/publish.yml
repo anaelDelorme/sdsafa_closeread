@@ -26,6 +26,15 @@ jobs:
         with:
           r-version: '4.2.0'
 
+      - name: Install specific version of sf
+        run: | 
+          Rscript -e "install.packages('sf', repos = 'https://cran.rstudio.com/', type = 'binary')"
+
+      - name: Configure renv to use global sf
+        run: |
+          Rscript -e "renv::settings$package.dependency('sf', ignore = TRUE)"
+          Rscript -e "renv::settings$use.cache(TRUE)"
+
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
