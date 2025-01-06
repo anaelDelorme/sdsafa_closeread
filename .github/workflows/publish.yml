@@ -34,6 +34,9 @@ jobs:
       - name: Disable renv sandbox
         run: echo "RENV_CONFIG_SANDBOX_ENABLED=false" >> ~/.Renviron
 
+      - name: Set CRAN mirror
+        run: echo 'options(repos = c(CRAN = "https://cran.r-project.org"))' >> ~/.Rprofile
+
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
