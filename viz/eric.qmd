@@ -26,10 +26,10 @@ Le classement de 1855 a été établi en vue d'une présentation des vins de la 
 La carte des appelations @cr-carte
 
 ::: {#cr-carte}
-```{r carte,echo=TRUE, message=TRUE, warning=TRUE}
-#| echo: true
-#| message: true
-#| warning: true
+```{r carte,echo=FALSE, message=FALSE, warning=FALSE}
+#| echo: false
+#| message: false
+#| warning: false
 
 cat('                                                                                                ' )
 
