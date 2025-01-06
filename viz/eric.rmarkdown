@@ -1,0 +1,148 @@
+---
+title: "Le classement 1855"
+Author: Eric Ambiaud
+format: 
+  closeread-html:
+    backgroundcolor: rgba(255, 255, 128, .5);
+theme: journal
+editor: source
+---
+
+
+
+
+:::: cr-section
+::: {#cr-1855}
+![](./img/1855.PNG)
+:::
+
+Le classement de 1855 a été établi en vue d'une présentation des vins de la Gironde, dans le cadre de l'Exposition Universelle de Paris, à la demande de l'Empereur **NAPOLEON III.** @cr-1855
+
+::: {#cr-parcelles}
+![](./img/image_parcelles_historiques.PNG)
+:::
+
+*La rédaction du classement fut confiée, par la Chambre de Commerce de Bordeaux, au "Syndicat des Courtiers de Commerce" auprès de la Bourse de Bordeaux. Sa mission était d'officialiser une classification basée sur l'expérience de longues années et qui correspondait à la reconnaissance de la qualité du Terroir et à la notoriété de chaque cru. Les éléments furent puisés aux meilleures sources*. @cr-parcelles
+::::
+
+:::: cr-section
+La carte des appelations @cr-carte
+
+::: {#cr-carte}
+
+
+
+```{r carte,echo=TRUE, message=TRUE, warning=TRUE}
+#| echo: true
+#| message: true
+#| warning: true
+
+cat('                                                                                                ' )
+
+library(htmlwidgets)
+library(sf) # pour gérer la géographie dans un dataframe
+library(tmap) # pour réaliser les cartes
+library(leaflet)
+library(btb)
+library(tmap)
+library(tidyverse)
+
+shp_path <- "./data/2024-12-02_delim-parcellaire-aoc.json"
+
+com_France <- st_read(shp_path, quiet = TRUE)
+
+    # Liste des AOC à filtrer
+    list_bdx <- c(
+      'Barsac', 'Haut-Médoc', 'Listrac-Médoc',
+      'Margaux', 'Médoc', 'Pauillac', 
+      'Pessac-Léognan', 'Saint-Estèphe', 
+      'Saint-Julien', 'Sauternes'
+    )
+
+    # Filtrage des données
+    aoc_medoc <- com_France %>% filter(app %in% list_bdx)
+
+    # Affichage de la carte interactive
+    tmap_mode("view")
+    tm_shape(aoc_medoc) +
+      tm_polygons(
+        col = "app",
+        popup.vars = c("Appellation" = "app", "Commune" = "nomcom"),
+        title = "AOC"
+      ) +
+      tm_view()
+
+```
+
+
+
+::::
+
+
+**Le classement comprend 5 grands crus dont 4 médoc**
+
+::: cr-section
+::: {#cr-lafite_propriete}
+![](./img/01-Lafite-Rothschild_propriete.jpg)
+:::
+
+Le chateau Lafite Rotschild, une proprieté du 18 eme siècle :@cr-lafite_propriete
+:::
+
+::: cr-section
+::: {#cr-margaux_propriete}
+![](./img/03-Chateau-Margaux_propriete.jpg)
+:::
+
+Le chateau Margaux, le plus beau de tous @cr-margaux_propriete
+:::
+
+::: cr-section
+::: {#cr-latour_propriete}
+![](./img/02-Latour_propriete.jpg)
+:::
+
+Le chateau Latour au bord de la Gironde @cr-latour_propriete
+:::
+
+::: cr-section
+::: {#cr-mouton_propriete}
+![](./img/04-Mouton-Rothschild_propriete.jpg)
+:::
+
+Le chateau Mouton, classé premier cru en 1973 grace à J. Chirac @cr-mouton_propriete
+:::
+
+::: cr-section
+Les prix reflètent la qualité du millésime mais également la réussite propre a chaque domaine. Si Lafite est souvent le plus cher, pour le millésime 1990 c'est le château Margaux le plus couteux. @cr-toto
+
+::: {#cr-toto}
+
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(readxl)
+library(ggplot2)
+library(dplyr)
+library(echarts4r)
+données_prix_vins <- read_excel("./data/donnees_prix_vins.xlsx", 
+  col_types = c("text", "numeric", "numeric", 
+    "numeric")) %>% 
+  rename(Millesime=Millésime) %>% 
+  arrange(Millesime)
+
+
+données_prix_vins |> 
+  e_charts(x = Millesime,width=800) |> 
+  e_line(serie = Margaux) |> 
+  e_line(serie = Lafite) |> 
+  e_line(serie = Latour) %>% 
+  e_tooltip(trigger = "axis")
+
+```
+
+
+
+:::
+:::
+

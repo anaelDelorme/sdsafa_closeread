@@ -1,6 +1,6 @@
 ---
 title: "Le classement 1855"
-Author: E Ambiaud
+Author: Eric Ambiaud
 format: 
   closeread-html:
     backgroundcolor: rgba(255, 255, 128, .5);
@@ -26,10 +26,10 @@ Le classement de 1855 a été établi en vue d'une présentation des vins de la 
 La carte des appelations @cr-carte
 
 ::: {#cr-carte}
-```{r carte,echo=FALSE, message=FALSE, warning=FALSE}
-#| echo: false
-#| message: false
-#| warning: false
+```{r carte,echo=TRUE, message=TRUE, warning=TRUE}
+#| echo: true
+#| message: true
+#| warning: true
 
 cat('                                                                                                ' )
 
@@ -41,19 +41,10 @@ library(btb)
 library(tmap)
 library(tidyverse)
 
-shp_path <- "./data/2024-12-02_delim-parcellaire-aoc-shp.shp"
+shp_path <- "./data/2024-12-02_delim-parcellaire-aoc.json"
 
-if (file.exists(shp_path)) {
-  # Chargement du fichier SHP
-  com_France <- tryCatch(
-    st_read(shp_path, quiet = TRUE),
-    error = function(e) {
-      message("Erreur lors de la lecture du fichier SHP : ", e$message)
-      NULL
-    }
-  )
+com_France <- st_read(shp_path, quiet = TRUE)
 
-  if (!is.null(com_France)) {
     # Liste des AOC à filtrer
     list_bdx <- c(
       'Barsac', 'Haut-Médoc', 'Listrac-Médoc',
@@ -74,10 +65,7 @@ if (file.exists(shp_path)) {
         title = "AOC"
       ) +
       tm_view()
-  }
-} else {
-  message("Fichier SHP introuvable : ", shp_path)
-}
+
 ```
 ::::
 
