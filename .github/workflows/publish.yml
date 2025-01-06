@@ -13,6 +13,9 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
       
+      - name: Pull LFS files
+        run: git lfs pull
+      
       - name: Inspect JSON content
         run: |
           head -n 10 viz/data/2024-12-02_delim-parcellaire-aoc.json
