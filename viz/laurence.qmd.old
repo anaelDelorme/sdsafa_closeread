@@ -1,15 +1,13 @@
 ---
 title: "LE PARC NATIONAL KRUGER SOUTH AFRICA"
-format : closeread-html
-editor: visual
+format: closeread-html
 ---
 
 Un voyage dans le parc Kruger, c'est plus qu'une simple aventure. C'est une immersion totale dans un écosystème sauvage qui rappelle la beauté brute et l'importance de préserver notre planète.
 
-::: cr-section
+::::::: cr-section
 ::: {#cr-monImage1}
-![](./img/20190818_123510.jpg)
-
+![](./img/20190815_085113%20-%20Copie.jpg)
 :::
 
 **Le parc national Kruger** <br> Le parc national Kruger, situé au cœur de l'Afrique du Sud, est l'un des plus grands et des plus célèbres sanctuaires de la faune sauvage au monde. Couvrant près de 20 000 kilomètres carrés, il offre un spectacle inoubliable pour les amoureux de la nature et les aventuriers. Ici, la biodiversité est impressionnante : on y trouve les fameux "Big Five" -- lion, léopard, éléphant, buffle et rhinocéros -- mais aussi une multitude d'autres espèces, des zèbres aux girafes, en passant par des centaines d'oiseaux exotiques. @cr-monImage1
@@ -73,4 +71,4 @@ Un voyage dans le parc Kruger, c'est plus qu'une simple aventure. C'est une imme
 :::
 
 **Des hébergements pour tous les goûts** <br> En plus de sa faune exceptionnelle, le Kruger offre des hébergements pour tous les goûts, du camping sauvage aux lodges de luxe, permettant à chacun de vivre une expérience inoubliable. Se lever tôt pour observer les animaux, ou se détendre au coucher du soleil tout en écoutant les bruits de la savane, fait du Kruger un lieu magique où l'on se reconnecte avec la nature. @cr-grille_images2
-:::
+:::::::
