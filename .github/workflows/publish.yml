@@ -13,6 +13,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
       
+      - name: Inspect JSON content
+        run: |
+          head -n 10 viz/data/2024-12-02_delim-parcellaire-aoc.json
+        
       - name: Check Json exists
         run: |
           ls -l viz/data/
