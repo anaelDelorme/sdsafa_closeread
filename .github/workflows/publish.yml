@@ -30,29 +30,6 @@ jobs:
               exit(1)
           '
           
-      - name: Check Json exists
-        run: |
-          ls -l viz/data/
-          file viz/data/2024-12-02_delim-parcellaire-aoc.json
-          # Vérifier si le fichier JSON est valide avec jq
-          if ! jq empty viz/data/2024-12-02_delim-parcellaire-aoc.json > /dev/null 2>&1; then
-            echo "ERROR: JSON file is invalid or corrupted!" && exit 1
-          fi
-          echo "JSON file is valid."
-      
-      - name: Check JSON readability in R
-        run: |
-          Rscript -e '
-            library(jsonlite)
-            tryCatch({
-              data <- fromJSON("viz/data/2024-12-02_delim-parcellaire-aoc.json")
-              cat("JSON file successfully loaded into R.\n")
-            }, error = function(e) {
-              cat("ERROR: Failed to read JSON file in R.\n")
-              stop(e)
-            })
-          '
-      
       - name: Set CRAN mirror for renv
         run: echo "RENV_CONFIG_REPOS_OVERRIDE=https://cran.r-project.org" >> ~/.Renviron
       
@@ -78,7 +55,20 @@ jobs:
       
       - name: Restore dependencies with fixed CRAN mirror
         run: Rscript -e 'options(repos = c(CRAN = "https://cran.r-project.org")); renv::restore()'
-
+        
+      - name: Check JSON readability in R
+        run: |
+          Rscript -e '
+            library(jsonlite)
+            tryCatch({
+              data <- fromJSON("viz/data/2024-12-02_delim-parcellaire-aoc.json")
+              cat("JSON file successfully loaded into R.\n")
+            }, error = function(e) {
+              cat("ERROR: Failed to read JSON file in R.\n")
+              stop(e)
+            })
+          '
+          
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
