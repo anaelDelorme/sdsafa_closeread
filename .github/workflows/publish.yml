@@ -13,10 +13,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
       
-      - name: Check Shapefile exists
+      - name: Check Json exists
         run: |
           ls -l viz/data/
-          file viz/data/2024-12-02_delim-parcellaire-aoc-shp.shp  
+          file viz/data/2024-12-02_delim-parcellaire-aoc.json
       
       - name: Set CRAN mirror for renv
         run: echo "RENV_CONFIG_REPOS_OVERRIDE=https://cran.r-project.org" >> ~/.Renviron
