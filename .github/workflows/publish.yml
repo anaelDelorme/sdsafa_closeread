@@ -16,22 +16,7 @@ jobs:
       - name: Pull LFS files
         run: git lfs pull
       
-      - name: Inspect JSON content
-        run: |
-          head -n 10 viz/data/2024-12-02_delim-parcellaire-aoc.json
-        
-      - name: Check JSON readability with Python
-        run: |
-          python3 -c '
-          import json
-          try:
-              with open("viz/data/2024-12-02_delim-parcellaire-aoc.json", "r") as f:
-                  json.load(f)
-              print("JSON is valid.")
-          except json.JSONDecodeError as e:
-              print(f"ERROR: Invalid JSON - {e}")
-              exit(1)
-          '
+  
           
       - name: Set CRAN mirror for renv
         run: echo "RENV_CONFIG_REPOS_OVERRIDE=https://cran.r-project.org" >> ~/.Renviron
@@ -59,18 +44,6 @@ jobs:
       - name: Restore dependencies with fixed CRAN mirror
         run: Rscript -e 'options(repos = c(CRAN = "https://cran.r-project.org")); renv::restore()'
         
-      - name: Check JSON readability in R
-        run: |
-          Rscript -e '
-            library(jsonlite)
-            tryCatch({
-              data <- fromJSON("viz/data/2024-12-02_delim-parcellaire-aoc.json")
-              cat("JSON file successfully loaded into R.\n")
-            }, error = function(e) {
-              cat("ERROR: Failed to read JSON file in R.\n")
-              stop(e)
-            })
-          '
           
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
