@@ -17,6 +17,19 @@ jobs:
         run: |
           head -n 10 viz/data/2024-12-02_delim-parcellaire-aoc.json
         
+      - name: Check JSON readability with Python
+        run: |
+          python3 -c '
+          import json
+          try:
+              with open("viz/data/2024-12-02_delim-parcellaire-aoc.json", "r") as f:
+                  json.load(f)
+              print("JSON is valid.")
+          except json.JSONDecodeError as e:
+              print(f"ERROR: Invalid JSON - {e}")
+              exit(1)
+          '
+          
       - name: Check Json exists
         run: |
           ls -l viz/data/
