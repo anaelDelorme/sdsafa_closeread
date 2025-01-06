@@ -18,6 +18,9 @@ jobs:
           ls -l viz/data/
           file viz/data/2024-12-02_delim-parcellaire-aoc-shp.shp  
       
+      - name: Set CRAN mirror for renv
+        run: echo "RENV_CONFIG_REPOS_OVERRIDE=https://cran.r-project.org" >> ~/.Renviron
+      
       - name: Set up system dependencies 
         run: | 
           sudo apt-get update 
@@ -34,13 +37,12 @@ jobs:
       - name: Disable renv sandbox
         run: echo "RENV_CONFIG_SANDBOX_ENABLED=false" >> ~/.Renviron
 
-      - name: Set CRAN mirror
-        run: echo 'options(repos = c(CRAN = "https://cran.r-project.org"))' >> ~/.Rprofile
-
-      - name: Install R Dependencies
-        uses: r-lib/actions/setup-renv@v2
-        with:
-          cache-version: 1
+      - name: Fix renv.lock file
+        run: |
+          sed -i 's|http://pbil.univ-lyon1.fr/CRAN|https://cran.r-project.org|g' renv.lock
+      
+      - name: Restore dependencies with fixed CRAN mirror
+        run: Rscript -e 'options(repos = c(CRAN = "https://cran.r-project.org")); renv::restore()'
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
