@@ -55,6 +55,9 @@ com_France <- st_read(shp_path, quiet = TRUE)
 
     # Filtrage des données
     aoc_medoc <- com_France %>% filter(app %in% list_bdx)
+    aoc_medoc <- st_set_crs(aoc_medoc, 2154)
+    aoc_medoc <- st_transform(aoc_medoc, 4326)
+    # st_bbox(aoc_medoc)
 
     # Affichage de la carte interactive
     tmap_mode("view")
