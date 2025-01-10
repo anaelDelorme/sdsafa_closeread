@@ -1,60 +1,247 @@
 ---
-title: "Viz Guyane"
-author: "vincent"
+title: "L'agriculture traditionnelle en Guyane"
+author: "Vincent"
 format: closeread-html
-backgroundcolor: darkslateblue
+backgroundcolor: darkslategrey
 fontsize: 1.4em
 ---
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(ggplot2)
+library(dplyr)
+library(echarts4r)
+
+knitr::opts_chunk$set(echo = FALSE)
+
+Donnees_973 <- readRDS("./data/Donnees_Guyane.rds") 
+
+```
+
 
 # L'abattis itinérant, 
 
 ## une agriculture vivrière traditionnelle en Amazonie
 
-Un rapide aperçu de ce qui a longtemps été le seul modèle de sédentarisation des peuples amérindiens afin de produire leur nourriture. Cette agriculture subsiste jusqu'à nos jours. Voici quelques img prises lors de mon excursion pour préparer le recensement agricole dans ces secteurs si particuliers.
+L'abattis pour produire les végétaux, la chasse et la pêche pour les produits carnés. Voilà ce qui a longtemps été le seul modèle des peuples amérindiens afin de produire leur nourriture. 
+Cette agriculture subsiste jusqu'à nos jours. Voici un bref aperçu du fonctionnement d'un abattis.
 
 ::::{.cr-section}
 
-Prenons l'avion pour la Guyane @cr-monImage1
+D'abord, prenons l'avion pour la Guyane @cr-monImage1
 
 :::{#cr-monImage1}
-![](./img/Image 01.JPG)
+![](./img/Guyane_000.jpg)
 :::
 
-puis une pirogue @cr-monImage2
+Après 9 heures de vol, nous voici en Guyane.
+Ce département français est très vaste, avec plus de 80 000 km² (soit environ la même superficie que la région Nouvelle Aquitaine).
+La Guyane est très peu peuplée (300 000 habitants environ) et couverte à plus de 90% par la forêt amazonienne. @cr-monImage1b
+
+:::{#cr-monImage1b}
+![](./img/Guyane_01.jpg)
+:::
+
+Maintenant, embarquons dans une pirogue, et remontons le fleuve Maroni @cr-monImage2
 
 :::{#cr-monImage2}
-![](./img/Image 02b.jpg)
+![](./img/Pirogue.jpg)
 :::
 
-Pour aller un peu plus loin @cr-monImage3
+Après quelques heures de navigation parfois périlleuse, @cr-monImage3
 
-Et nous voici entre Grand Santi et Maripa Soula, sur le haut Maroni [@cr-monImage3]{scale-by="1.5" pan-to="25%,-37%"}
+Nous voici sur le haut Maroni, entre Grand Santi et Maripa Soula [@cr-monImage3]{scale-by="1.5" pan-to="25%,-35%"}
 
 :::{#cr-monImage3}
 ![](./img/Image 02.JPG)
 :::
+
+Débarquons à Papaïchton, et laissons nos pirogues sur le fleuve. En route vers les abattis. @cr-monImage4
+
+:::{#cr-monImage4}
+![](./img/Accostage_Papaichton.jpg)
+:::
 ::::
 
 # L'abattis, une valse à 3 temps...
+# Le premier temps : La génèse d'un abattis...
+
 
 ::::{.cr-section layout="overlay-left"}
-<font color="#9900FF">La création commence par la coupe des arbres</font> @cr-creation1
+<font color="#D3D3D3">La création commence par la coupe des arbres</font> @cr-creation1
 
-et 3 ou 4 semaines de séchage @cr-creation1
+<font color="#D3D3D3">puis après 3 à 4 semaines de séchage</font> @cr-creation1
 
 :::{#cr-creation1}
-![](./img/Image 03.jpg)
+![](./img/Defrichement.jpg)
 :::
-
-Puis on brûle ce qui veut bien brûler @cr-creation2
+<font color="#D3D3D3"> on brûle ce qui veut bien brûler</font>@cr-creation2
 
 :::{#cr-creation2}
-![](./img/Image 04.jpg)
+![](./img/Feu.jpg)
 :::
-
-Les troncs eux, restent au sol, à peine carbonisés @cr-creation3
+<font color="#D3D3D3">Les troncs eux, restent au sol, à peine carbonisés</font> @cr-creation3
 
 :::{#cr-creation3}
-![](./img/Image 05.jpg)
+![](./img/Troncs.jpg)
 :::
 ::::
+
+# Le 2ème temps : l'exploitation de l'abattis
+
+::::{.cr-section layout="overlay-right"}
+
+
+<font color="#1917B7"> On commence par planter le manioc, base de l'alimentation bushinenguée, il faudra environ 18 mois pour commencer la récolte.</font> [@cr-exploitation1]{scale-by="0.5" pan-to="25%,-35%"}
+
+
+:::{#cr-exploitation1}
+
+![](./img/Image_06_comp.jpg)
+
+:::
+
+
+<font color="#1917B7">Ainsi que les bananiers; les bananes sont utilisés comme fruits ou comme légumes après cuisson (attention ! ce ne sont pas les mêmes variétés)</font> [@cr-exploitation2]{scale-by="0.5" pan-to="25%,-35%"}
+
+:::{#cr-exploitation2}
+
+![](./img/Image_07_comp.jpg)
+
+:::
+
+<font color="#1917B7">On trouve aussi des patates douces, dont la récolte est assez rapide, moins de 10 mois après plantation.</font>[@cr-exploitation3]{scale-by="0.5" pan-to="25%,-35%"}
+
+:::{#cr-exploitation3}
+
+![](./img/Image_08_comp.jpg)
+
+:::
+
+<font color="#1917B7">Et des plantations d'ananas, d'arbre fruitiers, et de palmiers à graines.</font>[@cr-exploitation4]{scale-by="0.5" pan-to="25%,-35%"}
+
+:::{#cr-exploitation4}
+
+![](./img/Ananas.jpg)
+
+:::
+
+<font color="#1917B7">Et parfois quelques cultures spécifiquement dédiées à la vente, comme ici le bissap (sorte d'hibiscus) dont la fleur est utilisée pour fabriquer des confitures.</font> @cr-exploitation5
+
+:::{#cr-exploitation5}
+
+![](./img/Image 09.jpg)
+
+:::
+
+::::
+
+# Le troisième temps : l'abattis est abandonné et se régénère
+::::{.cr-section layout="overlay-left"}
+
+Après 4 ans d'exploitation, le sol est appauvri, et l'abattis est abandonné @cr-fin1
+
+:::{#cr-fin1}
+![](./img/Image_fin_01.jpg)
+:::
+
+Quelques années plus tard, la végétation naturelle reprend possession du terrain. @cr-fin2
+
+:::{#cr-fin2}
+![](./img/Image_fin_03.jpg)
+:::
+
+10 à 15 ans plus tard, la forêt est quasiment régénérée @cr-fin3
+
+Environ 20 après le premier défrichement, un nouveau cycle peut s'établir sur cette même surface, la fertilité du sol s'est reconstituée, avec l'apport des débris végétaux... une histoire sans fin @cr-fin3
+
+:::{#cr-fin3}
+![](./img/Image_fin_04.jpg)
+:::
+
+::::
+
+# Quelques chiffres du recensement agricole 2020
+
+::::{.cr-section layout="overlay-left"}
+
+<font color="#030EFC">Sur les trois communes du haut-Maroni (Grand Santi, Papaïchton et Maripa Soula), nous comptons plus de  2 000 exploitations, soit près d'un tiers du total guyanais </font> @cr-graph_Nombre
+
+
+<font color="#030EFC">Mais ces exploitations ne représentent que 15% de la surface totale cultivée en Guyane</font> @cr-graph_SAU
+
+
+<font color="#030EFC">Le manioc est prépondérant dans l'assolement : de 50 à 65 % de la surface totale, alors que cette culture ne représente moins de 10% de la surface cultivée pour le reste de la Guyane</font> @cr-graph_SAU
+
+
+<font color="#030EFC">Et seulement 5 % du cheptel total guyanais</font> @cr-graph_cheptel
+
+
+Insérer les3 graphiques avec nombre d'exploitaitons, SAU et cheptel
+
+:::{#cr-graph_Nombre}
+```{r}
+
+Donnees_973  %>% 
+  e_charts(SIEGE_LIB_COM, width=800)  %>%  
+  e_pie(Nombre_exploitations)
+
+```
+:::
+
+:::{#cr-graph_SAU}
+```{r}
+
+Donnees_973  %>% 
+  e_charts(SIEGE_LIB_COM, width=800)  %>%  
+  e_pie(SAU)
+
+```
+:::
+
+:::{#cr-graph_cheptel}
+```{r}
+
+Donnees_973  %>% 
+  e_charts(SIEGE_LIB_COM,width=800  )  %>%  
+  e_pie(UGB)
+
+```
+:::
+
+::::
+
+
+# Mais l'agriculture guyanaise c'est aussi la zone littorale
+
+
+::::{.cr-section layout="overlay-left"}
+<font color="#4AB717 ">Notamment sous l'impulsion de la communauté Hmong, les abattis se sédentarisent. De grands espaces agricoles ont vu le jour depuis 10 ans </font> @cr-javouhey1
+
+:::{#cr-javouhey1}
+![](./img/Javouhey00.jpg)
+...
+
+
+<font color="#4AB717 ">Ici à Javouhey, non loin du bourg de Mana, ce sont plus de 2 000 ha qui ont été défrichés au cours des 5 dernières années, pour installer des plantations d'ananas, d'agrumes, de pitaya ou fruits la passion</font> @cr-javouhey2
+
+
+:::{#cr-javouhey2}
+![](./img/Javouhey01.jpg)
+:::
+
+
+<font color="#4AB717 ">Ou encore sur les hauteurs d'Apatou, non loin de Saint Laurent du Maroni, la création récente d'une route a favorisé la création d'abattis plantés d'agrumes et de ramboutan.</font> @cr-apatou1
+
+:::{#cr-apatou1}
+![](./img/Apatou.jpg)
+:::
+::::
+
+## La forêt guyanaise est propriété de l'Etat, et l'ONF en assure la gestion. Certains défrichements sont illégaux, mais, afin de favoriser le développement agricole, l'Etat délivre chaque année quelques centaines d'autorisations, dont plusieurs dizaines de baux emphytéotiques (durée supérieure à 20 ans) pour des surfaces pouvant atteindre de 10 à 20 ha. Ces baux concernent particulièrement le haut Maroni, afin d'installer de façon pérenne des agricultures vivrières locales. Une piste entre Papaichton et Maripa Soula a même été ouverte afin de faciliter l'accès à ces abattis et le transport des productions. Tout en se modernisant, cette agriculture traditionnelle reste une base importante pour le maintien des population sur ces zones très isolées.
+
+
