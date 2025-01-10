@@ -96,7 +96,7 @@ Débarquons à Papaïchton, et laissons nos pirogues sur le fleuve. En route ver
 ::::{.cr-section layout="overlay-right"}
 
 
-<font color="#1917B7"> On commence par planter le manioc, base de l'alimentation bushinenguée, il faudra environ 18 mois pour commencer la récolte.</font> [@cr-exploitation1]{scale-by="0.5" pan-to="25%,-35%"}
+<font color="#1917B7"> On commence par planter le manioc, base de l'alimentation bushinenguée, il faudra environ 18 mois pour commencer la récolte.</font> @cr-exploitation1
 
 
 :::{#cr-exploitation1}
@@ -106,7 +106,7 @@ Débarquons à Papaïchton, et laissons nos pirogues sur le fleuve. En route ver
 :::
 
 
-<font color="#1917B7">Ainsi que les bananiers; les bananes sont utilisés comme fruits ou comme légumes après cuisson (attention ! ce ne sont pas les mêmes variétés)</font> [@cr-exploitation2]{scale-by="0.5" pan-to="25%,-35%"}
+<font color="#1917B7">Ainsi que les bananiers; les bananes sont utilisés comme fruits ou comme légumes après cuisson (attention ! ce ne sont pas les mêmes variétés)</font> @cr-exploitation2
 
 :::{#cr-exploitation2}
 
@@ -114,7 +114,7 @@ Débarquons à Papaïchton, et laissons nos pirogues sur le fleuve. En route ver
 
 :::
 
-<font color="#1917B7">On trouve aussi des patates douces, dont la récolte est assez rapide, moins de 10 mois après plantation.</font>[@cr-exploitation3]{scale-by="0.5" pan-to="25%,-35%"}
+<font color="#1917B7">On trouve aussi des patates douces, dont la récolte est assez rapide, moins de 10 mois après plantation.</font> @cr-exploitation3
 
 :::{#cr-exploitation3}
 
@@ -122,7 +122,7 @@ Débarquons à Papaïchton, et laissons nos pirogues sur le fleuve. En route ver
 
 :::
 
-<font color="#1917B7">Et des plantations d'ananas, d'arbre fruitiers, et de palmiers à graines.</font>[@cr-exploitation4]{scale-by="0.5" pan-to="25%,-35%"}
+<font color="#1917B7">Et des plantations d'ananas, d'arbre fruitiers, et de palmiers à graines.</font> @cr-exploitation4
 
 :::{#cr-exploitation4}
 
@@ -224,8 +224,7 @@ Donnees_973  %>%
 
 :::{#cr-javouhey1}
 ![](./img/Javouhey00.jpg)
-...
-
+:::
 
 <font color="#4AB717 ">Ici à Javouhey, non loin du bourg de Mana, ce sont plus de 2 000 ha qui ont été défrichés au cours des 5 dernières années, pour installer des plantations d'ananas, d'agrumes, de pitaya ou fruits la passion</font> @cr-javouhey2
 
@@ -240,6 +239,7 @@ Donnees_973  %>%
 :::{#cr-apatou1}
 ![](./img/Apatou.jpg)
 :::
+
 ::::
 
 ## La forêt guyanaise est propriété de l'Etat, et l'ONF en assure la gestion. Certains défrichements sont illégaux, mais, afin de favoriser le développement agricole, l'Etat délivre chaque année quelques centaines d'autorisations, dont plusieurs dizaines de baux emphytéotiques (durée supérieure à 20 ans) pour des surfaces pouvant atteindre de 10 à 20 ha. Ces baux concernent particulièrement le haut Maroni, afin d'installer de façon pérenne des agricultures vivrières locales. Une piste entre Papaichton et Maripa Soula a même été ouverte afin de faciliter l'accès à ces abattis et le transport des productions. Tout en se modernisant, cette agriculture traditionnelle reste une base importante pour le maintien des population sur ces zones très isolées.
