@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="vincent">
+<meta name="author" content="Vincent">
 
-<title>Viz Guyane – Dataviz de la SDSAFA</title>
+<title>L’agriculture traditionnelle en Guyane – Dataviz de la SDSAFA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6d340f8c0eb04629964e4475012c4567.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-f2663f9733f16c4e60c928f8de3689df.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script src="../site_libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
 <script src="../site_libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
 <script src="../site_libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
@@ -71,6 +71,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../site_libs/echarts4r-4.8.0/echarts-en.min.js"></script>
+<script src="../site_libs/echarts4r-4.8.0/ecStat.min.js"></script>
+<script src="../site_libs/echarts4r-4.8.0/dataTool.min.js"></script>
+<script src="../site_libs/echarts4r-binding-0.4.5/echarts4r.js"></script>
 <meta cr-debug-mode="false">
 <meta cr-remove-header-space="false">
 
@@ -169,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../viz/vincent.html">
- <span class="dropdown-text">Viz Guyane</span></a>
+ <span class="dropdown-text">L’agriculture traditionnelle en Guyane</span></a>
   </li>  
     </ul>
   </li>
@@ -194,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Viz Guyane</h1>
+<h1 class="title">L’agriculture traditionnelle en Guyane</h1>
 </div>
 
 
@@ -204,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>vincent </p>
+             <p>Vincent </p>
           </div>
   </div>
     
@@ -221,40 +226,56 @@ ul.task-list li input[type="checkbox"] {
 <h1>L’abattis itinérant,</h1>
 <section id="une-agriculture-vivrière-traditionnelle-en-amazonie" class="level2">
 <h2 class="anchored" data-anchor-id="une-agriculture-vivrière-traditionnelle-en-amazonie">une agriculture vivrière traditionnelle en Amazonie</h2>
-<p>Un rapide aperçu de ce qui a longtemps été le seul modèle de sédentarisation des peuples amérindiens afin de produire leur nourriture. Cette agriculture subsiste jusqu’à nos jours. Voici quelques img prises lors de mon excursion pour préparer le recensement agricole dans ces secteurs si particuliers.</p>
+<p>L’abattis pour produire les végétaux, la chasse et la pêche pour les produits carnés. Voilà ce qui a longtemps été le seul modèle des peuples amérindiens afin de produire leur nourriture. Cette agriculture subsiste jusqu’à nos jours. Voici un bref aperçu du fonctionnement d’un abattis.</p>
 <div class="cr-section cr-column-screen sidebar-left">
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-monImage1">
 <div class="narrative">
-<p>Prenons l’avion pour la Guyane</p>
+<p>D’abord, prenons l’avion pour la Guyane</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-monImage1b">
+<div class="narrative">
+<p>Après 9 heures de vol, nous voici en Guyane. Ce département français est très vaste, avec plus de 80 000 km² (soit environ la même superficie que la région Nouvelle Aquitaine). La Guyane est très peu peuplée (300 000 habitants environ) et couverte à plus de 90% par la forêt amazonienne.</p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-monImage2">
 <div class="narrative">
-<p>puis une pirogue</p>
+<p>Maintenant, embarquons dans une pirogue, et remontons le fleuve Maroni</p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-monImage3">
 <div class="narrative">
-<p>Pour aller un peu plus loin</p>
+<p>Après quelques heures de navigation parfois périlleuse,</p>
 </div>
 </div>
-<div class="trigger new-trigger" data-focus-on="cr-monImage3" data-pan-to="25%,-37%" data-scale-by="1.5">
+<div class="trigger new-trigger" data-focus-on="cr-monImage3" data-pan-to="25%,-35%" data-scale-by="1.5">
 <div class="narrative">
-<p>Et nous voici entre Grand Santi et Maripa Soula, sur le haut Maroni</p>
+<p>Nous voici sur le haut Maroni, entre Grand Santi et Maripa Soula</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-monImage4">
+<div class="narrative">
+<p>Débarquons à Papaïchton, et laissons nos pirogues sur le fleuve. En route vers les abattis.</p>
 </div>
 </div>
 </div>
 <div class="sticky-col">
 <div class="sticky-col-stack">
 <div id="cr-monImage1" class="sticky">
-<p><img src="./img/Image 01.JPG" class="img-fluid"></p>
+<p><img src="./img/Guyane_000.jpg" class="img-fluid"></p>
+</div>
+<div id="cr-monImage1b" class="sticky">
+<p><img src="./img/Guyane_01.jpg" class="img-fluid"></p>
 </div>
 <div id="cr-monImage2" class="sticky">
-<p><img src="./img/Image 02b.jpg" class="img-fluid"></p>
+<p><img src="./img/Pirogue.jpg" class="img-fluid"></p>
 </div>
 <div id="cr-monImage3" class="sticky">
 <p><img src="./img/Image 02.JPG" class="img-fluid"></p>
+</div>
+<div id="cr-monImage4" class="sticky">
+<p><img src="./img/Accostage_Papaichton.jpg" class="img-fluid"></p>
 </div>
 </div>
 </div>
@@ -263,45 +284,237 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="labattis-une-valse-à-3-temps" class="level1">
 <h1>L’abattis, une valse à 3 temps…</h1>
+</section>
+<section id="le-premier-temps-la-génèse-dun-abattis" class="level1">
+<h1>Le premier temps : La génèse d’un abattis…</h1>
 <div class="cr-section cr-column-screen overlay-left">
 <div class="narrative-col">
 <div class="trigger new-trigger" data-focus-on="cr-creation1">
 <div class="narrative">
-<p><font color="#9900FF">La création commence par la coupe des arbres</font></p>
+<p><font color="#D3D3D3">La création commence par la coupe des arbres</font></p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-creation1">
 <div class="narrative">
-<p>et 3 ou 4 semaines de séchage</p>
+<p><font color="#D3D3D3">puis après 3 à 4 semaines de séchage</font></p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-creation2">
 <div class="narrative">
-<p>Puis on brûle ce qui veut bien brûler</p>
+<p><font color="#D3D3D3"> on brûle ce qui veut bien brûler</font></p>
 </div>
 </div>
 <div class="trigger new-trigger" data-focus-on="cr-creation3">
 <div class="narrative">
-<p>Les troncs eux, restent au sol, à peine carbonisés</p>
+<p><font color="#D3D3D3">Les troncs eux, restent au sol, à peine carbonisés</font></p>
 </div>
 </div>
 </div>
 <div class="sticky-col">
 <div class="sticky-col-stack">
 <div id="cr-creation1" class="sticky">
-<p><img src="./img/Image 03.jpg" class="img-fluid"></p>
+<p><img src="./img/Defrichement.jpg" class="img-fluid"></p>
 </div>
 <div id="cr-creation2" class="sticky">
-<p><img src="./img/Image 04.jpg" class="img-fluid"></p>
+<p><img src="./img/Feu.jpg" class="img-fluid"></p>
 </div>
 <div id="cr-creation3" class="sticky">
-<p><img src="./img/Image 05.jpg" class="img-fluid"></p>
+<p><img src="./img/Troncs.jpg" class="img-fluid"></p>
 </div>
 </div>
 </div>
 </div>
+</section>
+<section id="le-2ème-temps-lexploitation-de-labattis" class="level1">
+<h1>Le 2ème temps : l’exploitation de l’abattis</h1>
+<div class="cr-section cr-column-screen overlay-right">
+<div class="narrative-col">
+<div class="trigger new-trigger" data-focus-on="cr-exploitation1" data-pan-to="25%,-35%" data-scale-by="0.5">
+<div class="narrative">
+<p><font color="#1917B7"> On commence par planter le manioc, base de l’alimentation bushinenguée, il faudra environ 18 mois pour commencer la récolte.</font></p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-exploitation2" data-pan-to="25%,-35%" data-scale-by="0.5">
+<div class="narrative">
+<p><font color="#1917B7">Ainsi que les bananiers; les bananes sont utilisés comme fruits ou comme légumes après cuisson (attention ! ce ne sont pas les mêmes variétés)</font></p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-exploitation3" data-pan-to="25%,-35%" data-scale-by="0.5">
+<div class="narrative">
+<p><font color="#1917B7">On trouve aussi des patates douces, dont la récolte est assez rapide, moins de 10 mois après plantation.</font></p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-exploitation4" data-pan-to="25%,-35%" data-scale-by="0.5">
+<div class="narrative">
+<p><font color="#1917B7">Et des plantations d’ananas, d’arbre fruitiers, et de palmiers à graines.</font></p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-exploitation5">
+<div class="narrative">
+<p><font color="#1917B7">Et parfois quelques cultures spécifiquement dédiées à la vente, comme ici le bissap (sorte d’hibiscus) dont la fleur est utilisée pour fabriquer des confitures.</font></p>
+</div>
+</div>
+</div>
+<div class="sticky-col">
+<div class="sticky-col-stack">
+<div id="cr-exploitation1" class="sticky">
+<p><img src="./img/Image_06_comp.jpg" class="img-fluid"></p>
+</div>
+<div id="cr-exploitation2" class="sticky">
+<p><img src="./img/Image_07_comp.jpg" class="img-fluid"></p>
+</div>
+<div id="cr-exploitation3" class="sticky">
+<p><img src="./img/Image_08_comp.jpg" class="img-fluid"></p>
+</div>
+<div id="cr-exploitation4" class="sticky">
+<p><img src="./img/Ananas.jpg" class="img-fluid"></p>
+</div>
+<div id="cr-exploitation5" class="sticky">
+<p><img src="./img/Image 09.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="le-troisième-temps-labattis-est-abandonné-et-se-régénère" class="level1">
+<h1>Le troisième temps : l’abattis est abandonné et se régénère</h1>
+<div class="cr-section cr-column-screen overlay-left">
+<div class="narrative-col">
+<div class="trigger new-trigger" data-focus-on="cr-fin1">
+<div class="narrative">
+<p>Après 4 ans d’exploitation, le sol est appauvri, et l’abattis est abandonné</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-fin2">
+<div class="narrative">
+<p>Quelques années plus tard, la végétation naturelle reprend possession du terrain.</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-fin3">
+<div class="narrative">
+<p>10 à 15 ans plus tard, la forêt est quasiment régénérée</p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-fin3">
+<div class="narrative">
+<p>Environ 20 après le premier défrichement, un nouveau cycle peut s’établir sur cette même surface, la fertilité du sol s’est reconstituée, avec l’apport des débris végétaux… une histoire sans fin</p>
+</div>
+</div>
+</div>
+<div class="sticky-col">
+<div class="sticky-col-stack">
+<div id="cr-fin1" class="sticky">
+<p><img src="./img/Image_fin_01.jpg" class="img-fluid"></p>
+</div>
+<div id="cr-fin2" class="sticky">
+<p><img src="./img/Image_fin_03.jpg" class="img-fluid"></p>
+</div>
+<div id="cr-fin3" class="sticky">
+<p><img src="./img/Image_fin_04.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="quelques-chiffres-du-recensement-agricole-2020" class="level1">
+<h1>Quelques chiffres du recensement agricole 2020</h1>
+<div class="cr-section cr-column-screen overlay-left">
+<div class="narrative-col">
+<div class="trigger new-trigger" data-focus-on="cr-graph_Nombre">
+<div class="narrative">
+<p><font color="#030EFC">Sur les trois communes du haut-Maroni (Grand Santi, Papaïchton et Maripa Soula), nous comptons plus de 2 000 exploitations, soit près d’un tiers du total guyanais </font></p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-graph_SAU">
+<div class="narrative">
+<p><font color="#030EFC">Mais ces exploitations ne représentent que 15% de la surface totale cultivée en Guyane</font></p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-graph_SAU">
+<div class="narrative">
+<p><font color="#030EFC">Le manioc est prépondérant dans l’assolement : de 50 à 65 % de la surface totale, alors que cette culture ne représente moins de 10% de la surface cultivée pour le reste de la Guyane</font></p>
+</div>
+</div>
+<div class="trigger new-trigger" data-focus-on="cr-graph_cheptel">
+<div class="narrative">
+<p><font color="#030EFC">Et seulement 5 % du cheptel total guyanais</font></p>
+</div>
+</div>
+<div class="trigger">
+<div class="narrative">
+<p>Insérer les3 graphiques avec nombre d’exploitaitons, SAU et cheptel</p>
+</div>
+</div>
+</div>
+<div class="sticky-col">
+<div class="sticky-col-stack">
+<div id="cr-graph_Nombre" class="sticky">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-8e4e69f63727216a6f57" style="width:800px;height:500px;" class="echarts4r html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8e4e69f63727216a6f57">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"legend":{"data":["GRAND SANTI","MARIPASOULA","PAPAICHTON","Reste Guyane"]},"series":[{"name":"Nombre_exploitations","type":"pie","data":[{"value":755,"name":"GRAND SANTI"},{"value":790,"name":"MARIPASOULA"},{"value":508,"name":"PAPAICHTON"},{"value":4077,"name":"Reste Guyane"}]}]},"dispose":true},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="cr-graph_SAU" class="sticky">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-0c189457e7cf0f482abe" style="width:800px;height:500px;" class="echarts4r html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0c189457e7cf0f482abe">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"legend":{"data":["GRAND SANTI","MARIPASOULA","PAPAICHTON","Reste Guyane"]},"series":[{"name":"SAU","type":"pie","data":[{"value":911.1,"name":"GRAND SANTI"},{"value":1025.43,"name":"MARIPASOULA"},{"value":473.15,"name":"PAPAICHTON"},{"value":33835.12,"name":"Reste Guyane"}]}]},"dispose":true},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+<div id="cr-graph_cheptel" class="sticky">
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-788504619e168ec3f8cc" style="width:800px;height:500px;" class="echarts4r html-widget"></div>
+<script type="application/json" data-for="htmlwidget-788504619e168ec3f8cc">{"x":{"theme":"","tl":false,"draw":true,"renderer":"canvas","events":[],"buttons":[],"opts":{"legend":{"data":["GRAND SANTI","MARIPASOULA","PAPAICHTON","Reste Guyane"]},"series":[{"name":"UGB","type":"pie","data":[{"value":0,"name":"GRAND SANTI"},{"value":35.77,"name":"MARIPASOULA"},{"value":6.550000000000001,"name":"PAPAICHTON"},{"value":16987.179,"name":"Reste Guyane"}]}]},"dispose":true},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="mais-lagriculture-guyanaise-cest-aussi-la-zone-littorale" class="level1">
+<h1>Mais l’agriculture guyanaise c’est aussi la zone littorale</h1>
+<div class="cr-section cr-column-screen overlay-left">
+<div class="narrative-col">
+<div class="trigger new-trigger" data-focus-on="cr-javouhey1">
+<div class="narrative">
+<p><font color="#4AB717 ">Notamment sous l’impulsion de la communauté Hmong, les abattis se sédentarisent. De grands espaces agricoles ont vu le jour depuis 10 ans </font></p>
+</div>
+</div>
+<section id="la-forêt-guyanaise-est-propriété-de-letat-et-lonf-en-assure-la-gestion.-certains-défrichements-sont-illégaux-mais-afin-de-favoriser-le-développement-agricole-letat-délivre-chaque-année-quelques-centaines-dautorisations-dont-plusieurs-dizaines-de-baux-emphytéotiques-durée-supérieure-à-20-ans-pour-des-surfaces-pouvant-atteindre-de-10-à-20-ha.-ces-baux-concernent-particulièrement-le-haut-maroni-afin-dinstaller-de-façon-pérenne-des-agricultures-vivrières-locales.-une-piste-entre-papaichton-et-maripa-soula-a-même-été-ouverte-afin-de-faciliter-laccès-à-ces-abattis-et-le-transport-des-productions.-tout-en-se-modernisant-cette-agriculture-traditionnelle-reste-une-base-importante-pour-le-maintien-des-population-sur-ces-zones-très-isolées." class="level2 narrative trigger">
+<h2 class="narrative anchored" data-anchor-id="la-forêt-guyanaise-est-propriété-de-letat-et-lonf-en-assure-la-gestion.-certains-défrichements-sont-illégaux-mais-afin-de-favoriser-le-développement-agricole-letat-délivre-chaque-année-quelques-centaines-dautorisations-dont-plusieurs-dizaines-de-baux-emphytéotiques-durée-supérieure-à-20-ans-pour-des-surfaces-pouvant-atteindre-de-10-à-20-ha.-ces-baux-concernent-particulièrement-le-haut-maroni-afin-dinstaller-de-façon-pérenne-des-agricultures-vivrières-locales.-une-piste-entre-papaichton-et-maripa-soula-a-même-été-ouverte-afin-de-faciliter-laccès-à-ces-abattis-et-le-transport-des-productions.-tout-en-se-modernisant-cette-agriculture-traditionnelle-reste-une-base-importante-pour-le-maintien-des-population-sur-ces-zones-très-isolées.">La forêt guyanaise est propriété de l’Etat, et l’ONF en assure la gestion. Certains défrichements sont illégaux, mais, afin de favoriser le développement agricole, l’Etat délivre chaque année quelques centaines d’autorisations, dont plusieurs dizaines de baux emphytéotiques (durée supérieure à 20 ans) pour des surfaces pouvant atteindre de 10 à 20 ha. Ces baux concernent particulièrement le haut Maroni, afin d’installer de façon pérenne des agricultures vivrières locales. Une piste entre Papaichton et Maripa Soula a même été ouverte afin de faciliter l’accès à ces abattis et le transport des productions. Tout en se modernisant, cette agriculture traditionnelle reste une base importante pour le maintien des population sur ces zones très isolées.</h2>
+</section>
+<div class="trigger">
 
+</div>
+<div class="trigger">
 
+</div>
+</div>
+<div class="sticky-col">
+<div class="sticky-col-stack">
+<div id="cr-javouhey1" class="sticky">
+<p><img src="./img/Javouhey00.jpg" class="img-fluid"> …</p>
+<div data-focus-on="cr-javouhey2">
+<p><font color="#4AB717 ">Ici à Javouhey, non loin du bourg de Mana, ce sont plus de 2 000 ha qui ont été défrichés au cours des 5 dernières années, pour installer des plantations d’ananas, d’agrumes, de pitaya ou fruits la passion</font></p>
+</div>
+<div id="cr-javouhey2">
+<p><img src="./img/Javouhey01.jpg" class="img-fluid"></p>
+</div>
+<div data-focus-on="cr-apatou1">
+<p><font color="#4AB717 ">Ou encore sur les hauteurs d’Apatou, non loin de Saint Laurent du Maroni, la création récente d’une route a favorisé la création d’abattis plantés d’agrumes et de ramboutan.</font></p>
+</div>
+<div id="cr-apatou1">
+<p><img src="./img/Apatou.jpg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
